@@ -105,6 +105,7 @@
 [cuDNN Installation Guide](http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html)
 
 | 项目 | 版本 | 时间 |
+|-|-|-|
 | CUDA | 9.1.85.1  | 2018-1-25 |
 | CUDA | 9.0.176.1  | 2018-1-25 |
 | CUDA | 7.5.18  |  |
@@ -203,6 +204,7 @@ oxygen-2
 
 ## Java
 [http://www.oracle.com/us/technologies/java](http://www.oracle.com/us/technologies/java)
+
 [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
 9.0.4 8u162 7u80
@@ -240,7 +242,7 @@ vs2008-1.68 2011-3-14
 [https://www.visualstudio.com/zh-hans/downloads/](https://www.visualstudio.com/zh-hans/downloads/)
 
 |date| version | jdk | cpython | git | ndk | Anaconda |
-| - |
+|-|-|-|-|-|-|-|
 | 2018-6-18| 15.7.4| 8u172 | 2.7.14.1 3.6.5 | 2.17.1 | r15c | 5.1.0 |
 | 2018-5-31| 15.7.3| 8u172 | 2.7.14.1 3.6.5 | 2.16.1.4 | r15c | 5.1.0 |
 | 2018-5-21| 15.7.2| 8u172 | 2.7.14.1 3.6.5 | 2.16.1.4 | r15c | 5.1.0 |
@@ -286,7 +288,7 @@ vs2008-1.68 2011-3-14
  [https://github.com/opencv/opencv_contrib](https://github.com/opencv/opencv_contrib)
 
 | 版本| 时间 | protobuf | libjpeg | libpng | libtiff | zlib |
-| - | - | - | - | - |
+|-|-|-|-|-|-|-|
 | 3.4.1 | 2018-2 | 3.5.1 | 9b | 1.6.34 | 4.0.9 | 1.2.11 |
 | 3.4.0 | 2017-12 | 3.1.0 | 9b | 1.6.34 | 4.0.9 | 1.2.11 |
 | 2.4.13.5 | 2017-12 |  |
