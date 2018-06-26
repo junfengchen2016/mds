@@ -14,6 +14,7 @@
 [http://www.lookae.com/cc2018/](http://www.lookae.com/cc2018/)
 ## Anaconda
 [https://repo.continuum.io/archive/](https://repo.continuum.io/archive/)
+
 | 项目 | python版本 | 日期 | 注释|
 | - | - | - | - |
 | 5.1.0 |  | 2018-2 |  |
@@ -29,6 +30,7 @@
 [https://developer.android.google.cn/](https://developer.android.google.cn/)
 [http://services.gradle.org/distributions/](http://services.gradle.org/distributions/)
 [https://developer.android.google.cn/studio/archive.html](https://developer.android.google.cn/studio/archive.html)
+
 | 项目 | 版本 |日期 | 
 | - | - | - |
 | SDK | r24.4.1 |  |
@@ -47,6 +49,7 @@
 ## boost
 [http://www.boost.org/](http://www.boost.org/)
 [https://sourceforge.net/projects/boost/files/](https://sourceforge.net/projects/boost/files/)
+
 | 项目 | 版本 | 注释|
 | ------ | ------ | ------ |
 | 1.67.0 | 2018-4 |
@@ -66,6 +69,7 @@
 [https://github.com/caffe2/caffe2](https://github.com/caffe2/caffe2)
 ## CentOS
 [http://www.centos.org/](http://www.centos.org/)
+
 | 项目 | 时间 |
 | ------ | ------ |
 | 7.5-1804 | 2018-5-14 |
@@ -78,11 +82,13 @@
 ## Chart.js
 [http://www.chartjs.org/](http://www.chartjs.org/)
 [https://cdnjs.com/libraries/Chart.js](https://cdnjs.com/libraries/Chart.js)
+
 | 项目 | 时间 |
 | ------ | ------ |
 | 2.7.2 | 2018-3 |
 ## CMake
 [http://www.cmake.org/](http://www.cmake.org/)
+
 | 版本 | 时间 |
 | -  | -  |
 | 3.11.0 | 2018-3 |
@@ -97,6 +103,7 @@
 [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
 [https://developer.nvidia.com/cudnn](https://developer.nvidia.com/cudnn)
 [cuDNN Installation Guide](http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html)
+
 | 项目 | 版本 | 时间 |
 | CUDA | 9.1.85.1  | 2018-1-25 |
 | CUDA | 9.0.176.1  | 2018-1-25 |
@@ -106,10 +113,12 @@
 | cuDNN | v6.0 for CUDA 7.5 | 2017-4-27 |
 ## Cygwin
 [http://www.cygwin.com/](http://www.cygwin.com/)
+
 2.9.0
 
 ## Dlib
 [http://dlib.net/](http://dlib.net/)
+
 | 版本 | 时间 |
 | -  | -  |
 | 19.7 | 2017-9-17 |
@@ -118,9 +127,11 @@
 
 ## Eclipse
 [http://www.eclipse.org/](http://www.eclipse.org/)
+
 oxygen-2
 ## Electron
 [https://electron.atom.io/](https://electron.atom.io/)
+
 | Eletron | 时间 | Node | Chromium | V8 |
 | - | - | - | - | - |
 | 2.0.2 | 2018-5 | 8.9.3 | 61.0.3163.100 |  |
@@ -135,14 +146,17 @@ oxygen-2
 
 ## FANN
 [http://leenissen.dk/fann/wp/](http://leenissen.dk/fann/wp/)
+
 2.2.0 2012-01-24
 ## FreeType
 [https://www.freetype.org/](https://www.freetype.org/)
 [http://download.savannah.gnu.org/releases/freetype/](http://download.savannah.gnu.org/releases/freetype/)
+
 2.8.1 2017-9-16
 
 ## git
 [https://github.com/git-for-windows/git](https://github.com/git-for-windows/git)
+
 | 项目 | 版本 | 链接 |
 | ------ | ------ | ------ |
 | git | 2.16.2 | [https://git-for-windows.github.io/](https://git-for-windows.github.io/) |
@@ -151,6 +165,7 @@ oxygen-2
 ## google
 ### tensorflow
 [nightly Android build artifacts](https://ci.tensorflow.org/view/Nightly/job/nightly-android/)
+
 |version|cuda|cudnn| 
 | - | - | 
 |1.8.0|9.0|7.0|
@@ -158,6 +173,7 @@ oxygen-2
 
 ## GraphicsMagick
 [http://www.graphicsmagick.org/](http://www.graphicsmagick.org/)
+
 | 版本| 时间 | 
 | - | - | 
 | 1.3.28 | 2018-1-20 |
@@ -166,17 +182,20 @@ oxygen-2
 
 ## HashTools
 [https://www.binaryfortress.com/HashTools](https://www.binaryfortress.com/HashTools)
+
 | 项目 | 版本| 时间 | 
 | - | - | - |  
 | hathtools | 4.1 | 2017-9-12 |
 ## Hdf
 [http://www.hdfgroup.org/](http://www.hdfgroup.org/)
+
 | 版本| 时间 | 
 | - | - | 
 | 1.10.1 | 2017-9-12 |
 
 ## ImageMagick
 [http://www.imagemagick.org/](http://www.imagemagick.org/)
+
 | 版本| 时间 | 
 | - | - | 
 | 7.0.7-22 | 2018-1 |
@@ -185,9 +204,11 @@ oxygen-2
 ## Java
 [http://www.oracle.com/us/technologies/java](http://www.oracle.com/us/technologies/java)
 [http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
 9.0.4 8u162 7u80
 ## jQuery
 [https://github.com/jquery/jquery](https://github.com/jquery/jquery)
+
 | 项目 | 版本| 链接 |
 | ------ | ------ | ------ |
 | jQuery | 1.12.4 3.3.1 | [http://jquery.com/](http://jquery.com/)<br>[https://code.jquery.com/jquery-1.12.4.min.js](https://code.jquery.com/jquery-1.12.4.min.js)<br>[https://code.jquery.com/jquery-3.3.1.min.js](https://code.jquery.com/jquery-3.2.0.min.js)|
@@ -198,13 +219,18 @@ oxygen-2
 | QUnit | 2.4.1 | [http://qunitjs.com/](http://qunitjs.com/) |
 
 ## Leaflet
-[http://leafletjs.com/index.html](http://leafletjs.com/index.html) 1.0.1 2016-9-30
+[http://leafletjs.com/index.html](http://leafletjs.com/index.html) 1.0.1 
+
+2016-9-30
 ## Leveldb
-[https://github.com/google/leveldb/](https://github.com/google/leveldb/) 1.20 2017-5-2
+[https://github.com/google/leveldb/](https://github.com/google/leveldb/) 1.20 
+
+2017-5-2
 ## LMDB
 [https://github.com/LMDB/lmdb](https://github.com/LMDB/lmdb) 0.9.21 2017-6
 ## Leptonica
 [http://www.leptonica.com/](http://www.leptonica.com/) 
+
 1.74.4 2017-6-11
 vs2008-1.68 2011-3-14
 
@@ -212,6 +238,7 @@ vs2008-1.68 2011-3-14
 ### vs2017
 [https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes)
 [https://www.visualstudio.com/zh-hans/downloads/](https://www.visualstudio.com/zh-hans/downloads/)
+
 |date| version | jdk | cpython | git | ndk | Anaconda |
 | - |
 | 2018-6-18| 15.7.4| 8u172 | 2.7.14.1 3.6.5 | 2.17.1 | r15c | 5.1.0 |
@@ -221,7 +248,9 @@ vs2008-1.68 2011-3-14
 | 2018-4-26| 15.6.7| 8u172 | 2.7.14.1 3.6.3.2 | 2.16.1.4 | r15c | 5.0.0|
 ### vscode
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
 1.24
+
 [https://marketplace.visualstudio.com/VSCode](https://marketplace.visualstudio.com/VSCode)
 
 ## MySQL
@@ -232,6 +261,7 @@ vs2008-1.68 2011-3-14
 [https://nodejs.org/en/](https://nodejs.org/en/)
 [http://www.cnblogs.com/clark159/p/4615031.html](http://www.cnblogs.com/clark159/p/4615031.html)
 [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
+
 | 版本| 时间 |
 | - | - |
 | v8.11.3 LTS | 2018-6 |
@@ -242,9 +272,11 @@ vs2008-1.68 2011-3-14
 
 ## Octave
 [https://ftp.gnu.org/gnu/octave/windows/](https://ftp.gnu.org/gnu/octave/windows/)
+
 4.0.3
 ## OpenBLAS
 [http://www.openblas.net/](http://www.openblas.net/)
+
 | 版本| 时间 |
 | - | - |
 | 0.2.20 | 2017-7-24 |
@@ -252,6 +284,7 @@ vs2008-1.68 2011-3-14
  [http://opencv.org/](http://opencv.org/)
  [https://github.com/opencv/opencv](https://github.com/opencv/opencv)
  [https://github.com/opencv/opencv_contrib](https://github.com/opencv/opencv_contrib)
+
 | 版本| 时间 | protobuf | libjpeg | libpng | libtiff | zlib |
 | - | - | - | - | - |
 | 3.4.1 | 2018-2 | 3.5.1 | 9b | 1.6.34 | 4.0.9 | 1.2.11 |
@@ -265,17 +298,27 @@ vs2008-1.68 2011-3-14
 | 3.0.0 | 2015-6 |  |  |
 
 [https://github.com/shimat/opencvsharp](https://github.com/shimat/opencvsharp)
+
 3.4.1(2018-3)
+
 3.3.1(2017-11-17)
+
 3.2(2017-9-13)
+
 [http://libjpeg-turbo.virtualgl.org](http://libjpeg-turbo.virtualgl.org) 
+
 libjpeg-turbo 1.4.2
+
 [https://osdn.jp/projects/sfnet_opencvlibrary/releases/](https://osdn.jp/projects/sfnet_opencvlibrary/releases/)
+
 OpenCV demonstrator (GUI)
+
 [http://www.tsdconseil.fr/log/opencv/demo/index-en.html](http://www.tsdconseil.fr/log/opencv/demo/index-en.html)
+
 1.3.0(2017-9-30)
 ## OpenSSL
 [http://www.openssl.org/](http://www.openssl.org/)
+
 | 版本| 时间 | note |
 | - | - | - |
 | 1.1.0h | 2018-3-27 | |
@@ -286,6 +329,7 @@ OpenCV demonstrator (GUI)
 
 ## PCRE
 [http://www.pcre.org/](http://www.pcre.org/)
+
 | 项目 | 版本| 时间 |
 | ------ | ------ | ------ |
 | pcre | 8.41 | 2017-7 |
@@ -293,6 +337,7 @@ OpenCV demonstrator (GUI)
 
 ## PyCharm
 [http://www.jetbrains.com/pycharm/download](http://www.jetbrains.com/pycharm/download)
+
 | version | build | Release |
 | - | - | - |
 | 2017.3.4 | 173.4674.37 | 2018-3 |
@@ -302,25 +347,30 @@ OpenCV demonstrator (GUI)
 ## SWIG
 [http://www.swig.org/](http://www.swig.org/)
 [https://sourceforge.net/projects/swig/files/](https://sourceforge.net/projects/swig/files/)
+
 | version |  Release |
 | - | - |
 | 3.0.12 | 2017-1-28 |
 ## Synergy
 [http://synergykm.com/binaries/](http://synergykm.com/binaries/ "http://synergykm.com/binaries/")
+
 1.6.3(2015-3-24)
 
 ## tesseract
 [https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
 [https://github.com/tesseract-ocr/tessdata](https://github.com/tesseract-ocr/tessdata)
+
 4.00.00dev 2016-11-24
 3.05.01 2017-6-2
 ## tbb
 [https://www.threadingbuildingblocks.org](https://www.threadingbuildingblocks.org)
+
 tbb2017_20160916oss
 ## TinyXML
 [http://sourceforge.net/projects/tinyxml/](http://sourceforge.net/projects/tinyxml/)
 [http://www.grinninglizard.com/tinyxml2/](http://www.grinninglizard.com/tinyxml2/)
 [https://github.com/leethomason/tinyxml2](https://github.com/leethomason/tinyxml2)
+
 | 项目 | 版本| 时间 |
 | ------ | ------ | ------ |
 | tinyxml | 2.6.2 | 2011-5-15 |
@@ -331,11 +381,14 @@ tbb2017_20160916oss
 ## Ubuntu
 [http://www.ubuntu.com](http://www.ubuntu.com)
 [https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/)
+
 18.04
+
 16.04.4
 
 ## VirtualBox
 [https://www.virtualbox.org/](https://www.virtualbox.org/)
+
 5.2.12(2018-5)
 5.2.10(2018-4)
 5.2.8(2018-2)
@@ -347,6 +400,7 @@ tbb2017_20160916oss
 
 ## WampServer
 [http://www.wampserver.com/en/](http://www.wampserver.com/en/)
+
 | 项目 | 版本 |
 | - | - |
 | WampServer | 3.0.6 |
@@ -355,12 +409,14 @@ tbb2017_20160916oss
 | php | 5.6.25-7.0.10 |
 ## Wget
 [https://www.gnu.org/software/wget/](https://www.gnu.org/software/wget/)
+
 | 版本 | 时间 |
 | - | - |
 | 1.19.2 | 2017-10-26 |
 | 1.19.1 | 2017-2-11 |
 ## Wireshark
 [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
+
 | 版本 | 时间 |
 | - | - |
 | 2.6.1 | 2018-5 |
@@ -372,6 +428,7 @@ tbb2017_20160916oss
 ## WpfAnimatedGif
 [http://wpfanimatedgif.codeplex.com/](http://wpfanimatedgif.codeplex.com/)
 [https://github.com/XamlAnimatedGif/WpfAnimatedGif](https://github.com/XamlAnimatedGif/WpfAnimatedGif)
+
 | 版本 | 时间 |
 | - | - |
 | 1.4.15 | 2018-1-11 |
