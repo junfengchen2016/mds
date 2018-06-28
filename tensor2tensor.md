@@ -51,17 +51,25 @@ python -m tensor2tensor.bin.t2t_trainer --registry_help
 |English-Vietnamese|translate_envi_iwslt32k|transformer|transformer_base<br>transformer_base_single_gpu<br>transformer_big|
 
 ## Examples
-MNIST
+image_mnist
 ```
-python -m tensor2tensor.bin.t2t_trainer --generate_data --data_dir=~/t2t_data --output_dir=~/t2t_train/mnist --problem=image_mnist --model=shake_shake --hparams_set=shake_shake_quick --train_steps=1000 --eval_steps=100
+python -m tensor2tensor.bin.t2t_trainer --generate_data --data_dir=/t2t_data --output_dir=/t2t_train/mnist --problem=image_mnist --model=shake_shake --hparams_set=shake_shake_quick --train_steps=1000 --eval_steps=100
 ```
-CIFAR-10
+image_fashion_mnist
 ```
-python3 -m tensor2tensor.bin.t2t_trainer --generate_data --data_dir=~/t2t_data --output_dir=~/t2t_train/cifar10 --problem=image_cifar10 --model=shake_shake --hparams_set=shakeshake_big --train_steps=1000 --eval_steps=100
+python -m tensor2tensor.bin.t2t_trainer --generate_data --data_dir=/t2t_data --output_dir=/t2t_train/fashion_mnist --problem=image_fashion_mnist --model=shake_shake --hparams_set=shake_shake_quick --train_steps=1000 --eval_steps=100
 ```
-ImageNet
+image_cifar10
 ```
-python3 -m tensor2tensor.bin.t2t_trainer --generate_data --data_dir=~/t2t_data --output_dir=~/t2t_train/imagenet --problem=image_imagenet224 --model=resnet --hparams_set=resnet_50 --train_steps=1000 --eval_steps=100
+python3 -m tensor2tensor.bin.t2t_trainer --generate_data --data_dir=/t2t_data --output_dir=/t2t_train/cifar10 --problem=image_cifar10 --model=shake_shake --hparams_set=shakeshake_big --train_steps=1000 --eval_steps=100
+```
+image_cifar100
+```
+python3 -m tensor2tensor.bin.t2t_trainer --generate_data --data_dir=/t2t_data --output_dir=/t2t_train/cifar100 --problem=image_cifar100 --model=shake_shake --hparams_set=shakeshake_big --train_steps=1000 --eval_steps=100
+```
+image_imagenet
+```
+python3 -m tensor2tensor.bin.t2t_trainer --generate_data --data_dir=/t2t_data --output_dir=/t2t_train/imagenet --problem=image_imagenet224 --model=resnet --hparams_set=resnet_50 --train_steps=1000 --eval_steps=100
 ```
 
 
