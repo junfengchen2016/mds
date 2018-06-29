@@ -66,6 +66,7 @@
 |[q-gao/progressive-growing-gan](https://github.com/q-gao/progressive-growing-gan)||
 |[shimat/opencvsharp](https://github.com/shimat/opencvsharp)|3.4.1|opencvsharp|
 |[TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace)|2.0.2|
+|[TerenceCYJ/Video_Object_Detection](https://github.com/TerenceCYJ/Video_Object_Detection)||
 |[tsdconseil/opencv-demonstrator](https://github.com/tsdconseil/opencv-demonstrator)|1.3.0|
 |[XamlAnimatedGif/WpfAnimatedGif](https://github.com/XamlAnimatedGif/WpfAnimatedGif)||
 |[XamlAnimatedGif/XamlAnimatedGif](https://github.com/XamlAnimatedGif/XamlAnimatedGif)|1.1.10|
