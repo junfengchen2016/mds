@@ -72,6 +72,6 @@
 |[XamlAnimatedGif/WpfAnimatedGif](https://github.com/XamlAnimatedGif/WpfAnimatedGif)||
 |[XamlAnimatedGif/XamlAnimatedGif](https://github.com/XamlAnimatedGif/XamlAnimatedGif)|1.1.10|
 |[xitu/tensorflow-docs](https://github.com/xitu/tensorflow-docs)||
-|[yongyehuang/Tensorflow-Tutorial](https://github.com/yongyehuang/Tensorflow-Tutorial)||★☆☆☆☆|
+|[yongyehuang/Tensorflow-Tutorial](https://github.com/yongyehuang/Tensorflow-Tutorial)|||
 |[zalandoresearch/fashion-mnist](https://github.com/zalandoresearch/fashion-mnist)||fasion mnist|
 |[zma/usefulscripts](https://github.com/zma/usefulscripts)|||
