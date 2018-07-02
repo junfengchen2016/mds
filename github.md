@@ -63,6 +63,7 @@
 |[open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp)|1.8.4|jsoncpp|
 |[opencv/opencv](https://github.com/opencv/opencv)|3.4.1|opencv|
 |[opencv/opencv_contrib](https://github.com/opencv/opencv_contrib)|3.4.1|opencv_contrib|
+|[philferriere/cocoapi](https://github.com/philferriere/cocoapi)||
 |[q-gao/progressive-growing-gan](https://github.com/q-gao/progressive-growing-gan)||
 |[shimat/opencvsharp](https://github.com/shimat/opencvsharp)|3.4.1|opencvsharp|
 |[TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace)|2.0.2|

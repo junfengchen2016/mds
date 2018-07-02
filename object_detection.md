@@ -53,16 +53,20 @@ wget http://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz
 tar -xvf annotations.tar.gz
 tar -xvf images.tar.gz
 # fix image with png/gif format
-python -m object_detection.mine.pet_preprocess
+python -m object_detection.dataset_tools.pet_preprocess
 python -m object_detection.dataset_tools.create_pet_tf_record --label_map_path=object_detection/data/pet_label_map.pbtxt --data_dir=. --output_dir=. --faces_only=False
 ```
 ## running_locally
 ### Recommended Directory Structure for Training and Evaluation
 ```
-+data
-  -label_map file
-  -train TFRecord file
-  -eval TFRecord file
++data/
+    - faster_rcnn_resnet101_pets.config
+    - model.ckpt.index
+    - model.ckpt.meta
+    - model.ckpt.data-00000-of-00001
+    - pet_label_map.pbtxt
+    - pet_train.record
+    - pet_val.record
 +models
   + model
     -pipeline config file
@@ -96,3 +100,4 @@ python object_detection/export_inference_graph.py \
 
 ## issues
 * [Corrupt JPEG data: 245 extraneous bytes before marker 0xd9 ](https://github.com/tensorflow/models/issues/2194)
+* [TypeError: Expected int32, got range(0, 3) of type 'range' instead.](https://github.com/tensorflow/models/issues/3443)
