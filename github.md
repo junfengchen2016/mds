@@ -35,7 +35,7 @@
 
 ## github
 |item|version|note|
-|-|-|-|-|
+|-|-|-|
 |[aria2/aria2](https://github.com/aria2/aria2)|1.34.0|
 |[cchen156/Learning-to-See-in-the-Dark](https://github.com/cchen156/Learning-to-See-in-the-Dark)|
 |[CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)|1.3.0|
