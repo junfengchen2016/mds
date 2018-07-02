@@ -1,6 +1,12 @@
 # object_detection
 
 ## Installation
+COCO API installation
+```
+git clone https://github.com/cocodataset/cocoapi.git
+cd cocoapi/PythonAPI
+python setup.py install
+```
 Protobuf Compilation
 ```
 # From tensorflow/models/research/
@@ -53,7 +59,7 @@ wget http://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz
 tar -xvf annotations.tar.gz
 tar -xvf images.tar.gz
 # fix image with png/gif format
-python -m object_detection.dataset_tools.pet_preprocess
+python -m object_detection.dataset_tools.preprocess_pet
 python -m object_detection.dataset_tools.create_pet_tf_record --label_map_path=object_detection/data/pet_label_map.pbtxt --data_dir=. --output_dir=. --faces_only=False
 ```
 ## running_locally
@@ -94,11 +100,9 @@ tensorboard --logdir=./object_detection/mine/pet
 ## Exporting a trained model for inference
 ```
 # From tensorflow/models/research/
-python object_detection/export_inference_graph.py \
-    --input_type image_tensor \
-    --pipeline_config_path ${PIPELINE_CONFIG_PATH} \
-    --trained_checkpoint_prefix ${TRAIN_PATH} \
-    --output_directory ${EXPORT_DIR}
+python -m object_detection.export_inference_graph --input_type image_tensor --pipeline_config_path ${PIPELINE_CONFIG_PATH} --trained_checkpoint_prefix ${TRAIN_PATH} --output_directory ${EXPORT_DIR}
+
+python -m object_detection.export_inference_graph --input_type image_tensor --pipeline_config_path ./object_detection/mine/pet/data/faster_rcnn_resnet101_pets.config --trained_checkpoint_prefix ./object_detection/mine/pet/train/model.ckpt-18389 --output_directory ./object_detection/mine/pet/exported_graphs
 ```
 
 ## issues
