@@ -67,25 +67,28 @@ python -m object_detection.dataset_tools.create_pet_tf_record --label_map_path=o
     - pet_label_map.pbtxt
     - pet_train.record
     - pet_val.record
-+models
-  + model
-    -pipeline config file
-    +train
-    +eval
++train/
++eval/
 ```
 ### Running the Training Job
 ```
 # From the tensorflow/models/research/ directory
 python -m object_detection.train --logtostderr --pipeline_config_path=${PATH_TO_YOUR_PIPELINE_CONFIG} --train_dir=${PATH_TO_TRAIN_DIR}
+
+python -m object_detection.train --logtostderr --pipeline_config_path=./object_detection/mine/pet/data/faster_rcnn_resnet101_pets.config --train_dir=./object_detection/mine/pet/train
 ```    
 ### Running the Evaluation Job
 ```
 # From the tensorflow/models/research/ directory
 python -m object_detection.eval --logtostderr --pipeline_config_path=${PATH_TO_YOUR_PIPELINE_CONFIG} --checkpoint_dir=${PATH_TO_TRAIN_DIR} --eval_dir=${PATH_TO_EVAL_DIR}
+
+python -m object_detection.eval --logtostderr --pipeline_config_path=./object_detection/mine/pet/data/faster_rcnn_resnet101_pets.config --checkpoint_dir=./object_detection/mine/pet/train --eval_dir=./object_detection/mine/pet/eval
 ```
 ### Running Tensorboard
 ```
 tensorboard --logdir=${PATH_TO_MODEL_DIRECTORY}
+
+tensorboard --logdir=./object_detection/mine/pet
 ```
 
 ## Exporting a trained model for inference
