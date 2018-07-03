@@ -74,41 +74,46 @@ python -m object_detection.dataset_tools.create_pet_tf_record --label_map_path=o
 ## running_locally
 ### Recommended Directory Structure for Training and Evaluation
 ```
-+detection_model_zoo/
-    +faster_rcnn_resnet101_coco_11_06_2017/
-        -model.ckpt.index
-        -model.ckpt.meta
-        -model.ckpt.data-00000-of-00001
 +mine
+    +detection_model_zoo/
+        +faster_rcnn_resnet101_coco_2018_01_28/
+            -model.ckpt.index
+            -model.ckpt.meta
+            -model.ckpt.data-00000-of-00001
     +pet/
         +data/
-            -pet_label_map.pbtxt
-            -pet_train.record
-            -pet_val.record
+            -pascal_label_map.pbtxt
+            -pascal_train.record
+            -pascal_val.record
         +faster_rcnn_resnet101_coco/
-            -faster_rcnn_resnet101_pets.config
+            -faster_rcnn_resnet101_voc07.config
             +train/
             +eval/
+    -pascal_tensorboard.cmd
+    -pascal_train.cmd
+    -pascal_val.cmd
 ```
 ### Running the Training Job
 ```
 # From the tensorflow/models/research/ directory
 python -m object_detection.train --logtostderr --pipeline_config_path=${PATH_TO_YOUR_PIPELINE_CONFIG} --train_dir=${PATH_TO_TRAIN_DIR}
 
-python -m object_detection.train --logtostderr --pipeline_config_path=./object_detection/mine/pet/data/faster_rcnn_resnet101_coco/faster_rcnn_resnet101_pets.config --train_dir=./object_detection/mine/pet/faster_rcnn_resnet101_coco/train
+set CUDA_VISIBLE_DEVICES=0 
+python -m object_detection.train --logtostderr --pipeline_config_path=./pascal/faster_rcnn_resnet101_coco/faster_rcnn_resnet101_voc07.config --train_dir=./pascal/faster_rcnn_resnet101_coco/train
 ```    
 ### Running the Evaluation Job
 ```
 # From the tensorflow/models/research/ directory
 python -m object_detection.eval --logtostderr --pipeline_config_path=${PATH_TO_YOUR_PIPELINE_CONFIG} --checkpoint_dir=${PATH_TO_TRAIN_DIR} --eval_dir=${PATH_TO_EVAL_DIR}
 
-python -m object_detection.eval --logtostderr --pipeline_config_path=./object_detection/mine/pet/faster_rcnn_resnet101_coco/faster_rcnn_resnet101_pets.config --checkpoint_dir=./object_detection/mine/pet/faster_rcnn_resnet101_coco/train --eval_dir=./object_detection/mine/pet/faster_rcnn_resnet101_coco/eval
+set CUDA_VISIBLE_DEVICES="" 
+python -m object_detection.eval --logtostderr --pipeline_config_path=./pascal/faster_rcnn_resnet101_coco/faster_rcnn_resnet101_voc07.config --checkpoint_dir=./pascal/faster_rcnn_resnet101_coco/train --eval_dir=./pascal/faster_rcnn_resnet101_coco/eval
 ```
 ### Running Tensorboard
 ```
 tensorboard --logdir=${PATH_TO_MODEL_DIRECTORY}
 
-tensorboard --logdir=./object_detection/mine/pet/faster_rcnn_resnet101_coco
+tensorboard --logdir=./pascal/faster_rcnn_resnet101_coco
 ```
 
 ## Exporting a trained model for inference
