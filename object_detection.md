@@ -80,7 +80,7 @@ python -m object_detection.dataset_tools.create_pet_tf_record --label_map_path=o
             -model.ckpt.index
             -model.ckpt.meta
             -model.ckpt.data-00000-of-00001
-    +pet/
+    +pascal/
         +data/
             -pascal_label_map.pbtxt
             -pascal_train.record
