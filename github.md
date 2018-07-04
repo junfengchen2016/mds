@@ -50,6 +50,7 @@
 |[itext/rups](https://github.com/itext/rups)|5.5.9||
 |[JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)|11.0.2||
 |[jerryli27/TwinGAN](https://github.com/jerryli27/TwinGAN)||
+|[jrosebr1/imutils](https://github.com/jrosebr1/imutils)||imutils|
 |[jquery/jquery](https://github.com/jquery/jquery)|3.3.1|jquery|
 |[keras-team/keras](https://github.com/keras-team/keras)|2.2.0|keras|
 |[leethomason/tinyxml2](https://github.com/leethomason/tinyxml2)|6.0.2|tinyxml2|
