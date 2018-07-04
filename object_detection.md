@@ -3,7 +3,8 @@
 ## Installation
 COCO API installation
 ```
-git clone https://github.com/cocodataset/cocoapi.git
+# git clone https://github.com/cocodataset/cocoapi.git
+git clone https://github.com/philferriere/cocoapi.git
 cd cocoapi/PythonAPI
 python setup.py install
 ```
