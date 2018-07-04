@@ -121,7 +121,7 @@ tensorboard --logdir=./pascal/faster_rcnn_resnet101_coco
 # From tensorflow/models/research/
 python -m object_detection.export_inference_graph --input_type image_tensor --pipeline_config_path ${PIPELINE_CONFIG_PATH} --trained_checkpoint_prefix ${TRAIN_PATH} --output_directory ${EXPORT_DIR}
 
-python -m object_detection.export_inference_graph --input_type image_tensor --pipeline_config_path ./object_detection/mine/pet/faster_rcnn_resnet101_coco/faster_rcnn_resnet101_pets.config --trained_checkpoint_prefix ./object_detection/mine/pet/faster_rcnn_resnet101_coco/train/model.ckpt-18389 --output_directory ./object_detection/mine/pet/faster_rcnn_resnet101_coco/exported_graphs
+python -m object_detection.export_inference_graph --input_type image_tensor --pipeline_config_path ./pascal/faster_rcnn_resnet101_coco/faster_rcnn_resnet101_voc07.config --trained_checkpoint_prefix ./pascal/faster_rcnn_resnet101_coco/train/model.ckpt-5183 --output_directory ./pascal/faster_rcnn_resnet101_coco/exported_graphs
 ```
 
 ## issues
