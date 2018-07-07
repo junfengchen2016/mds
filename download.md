@@ -24,12 +24,12 @@
 | 4.3.1 | 3.6 | ok |
 | 4.2.0 | 3.5.2 | ok |
 ## Android
-[http://developer.android.com/](http://developer.android.com/)
-[http://developer.android.com/tools/sdk/ndk/](http://developer.android.com/tools/sdk/ndk/)
-[http://www.androiddevtools.cn/](http://www.androiddevtools.cn/)
-[https://developer.android.google.cn/](https://developer.android.google.cn/)
-[http://services.gradle.org/distributions/](http://services.gradle.org/distributions/)
-[https://developer.android.google.cn/studio/archive.html](https://developer.android.google.cn/studio/archive.html)
+[http://developer.android.com/](http://developer.android.com/)<br>
+[http://developer.android.com/tools/sdk/ndk/](http://developer.android.com/tools/sdk/ndk/)<br>
+[http://www.androiddevtools.cn/](http://www.androiddevtools.cn/)<br>
+[https://developer.android.google.cn/](https://developer.android.google.cn/)<br>
+[http://services.gradle.org/distributions/](http://services.gradle.org/distributions/)<br>
+[https://developer.android.google.cn/studio/archive.html](https://developer.android.google.cn/studio/archive.html)<br>
 
 | 项目 | 版本 |日期 | 
 | - | - | - |
@@ -48,6 +48,7 @@
 
 ## boost
 [http://www.boost.org/](http://www.boost.org/)
+
 [https://sourceforge.net/projects/boost/files/](https://sourceforge.net/projects/boost/files/)
 
 | 项目 | 版本 | 注释|
@@ -60,13 +61,14 @@
 | 1.61.0 | 2016-5-13 | ok |
 
 ## caffe
-[https://github.com/BVLC/caffe](https://github.com/BVLC/caffe)
-[https://github.com/Microsoft/caffe](https://github.com/Microsoft/caffe)
-[https://github.com/weiliu89/caffe.git](https://github.com/weiliu89/caffe.git)
-[https://github.com/sanghoon/pva-faster-rcnn](https://github.com/sanghoon/pva-faster-rcnn)
-[https://github.com/shelhamer/fcn.berkeleyvision.org](https://github.com/shelhamer/fcn.berkeleyvision.org)
-[https://github.com/Yangqing/caffe2](https://github.com/Yangqing/caffe2)
-[https://github.com/caffe2/caffe2](https://github.com/caffe2/caffe2)
+[https://github.com/BVLC/caffe](https://github.com/BVLC/caffe)<br>
+[https://github.com/Microsoft/caffe](https://github.com/Microsoft/caffe)<br>
+[https://github.com/weiliu89/caffe.git](https://github.com/weiliu89/caffe.git)<br>
+[https://github.com/sanghoon/pva-faster-rcnn](https://github.com/sanghoon/pva-faster-rcnn)<br>
+[https://github.com/shelhamer/fcn.berkeleyvision.org](https://github.com/shelhamer/fcn.berkeleyvision.org)<br>
+[https://github.com/Yangqing/caffe2](https://github.com/Yangqing/caffe2)<br>
+[https://github.com/caffe2/caffe2](https://github.com/caffe2/caffe2)<br>
+
 ## CentOS
 [http://www.centos.org/](http://www.centos.org/)
 
@@ -80,8 +82,8 @@
 | 7.0-1406 |  |
 | 6.8 | 2016-6-16|
 ## Chart.js
-[http://www.chartjs.org/](http://www.chartjs.org/)
-[https://cdnjs.com/libraries/Chart.js](https://cdnjs.com/libraries/Chart.js)
+[http://www.chartjs.org/](http://www.chartjs.org/)<br>
+[https://cdnjs.com/libraries/Chart.js](https://cdnjs.com/libraries/Chart.js)<br>
 
 | 项目 | 时间 |
 | ------ | ------ |
@@ -100,9 +102,9 @@
 | 3.9.4 | 2017-10-4 |
 | 3.9.3 | 2017-9-20 |
 ## CUDA/cuDNN
-[https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)
-[https://developer.nvidia.com/cudnn](https://developer.nvidia.com/cudnn)
-[cuDNN Installation Guide](http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html)
+[https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)<br>
+[https://developer.nvidia.com/cudnn](https://developer.nvidia.com/cudnn)<br>
+[cuDNN Installation Guide](http://docs.nvidia.com/deeplearning/sdk/cudnn-install/index.html)<br>
 
 | 项目 | 版本 | 时间 |
 |-|-|-|
@@ -150,8 +152,8 @@ oxygen-2
 
 2.2.0 2012-01-24
 ## FreeType
-[https://www.freetype.org/](https://www.freetype.org/)
-[http://download.savannah.gnu.org/releases/freetype/](http://download.savannah.gnu.org/releases/freetype/)
+[https://www.freetype.org/](https://www.freetype.org/)<br>
+[http://download.savannah.gnu.org/releases/freetype/](http://download.savannah.gnu.org/releases/freetype/)<br>
 
 2.8.1 2017-9-16
 
@@ -203,9 +205,8 @@ oxygen-2
 | 7.0.4 |  |
 
 ## Java
-[http://www.oracle.com/us/technologies/java](http://www.oracle.com/us/technologies/java)
-
-[http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+[http://www.oracle.com/us/technologies/java](http://www.oracle.com/us/technologies/java)<br>
+[http://www.oracle.com/technetwork/java/javase/downloads/index.html](http://www.oracle.com/technetwork/java/javase/downloads/index.html)<br>
 
 9.0.4 8u162 7u80
 ## jQuery
@@ -238,8 +239,8 @@ vs2008-1.68 2011-3-14
 
 ## microsoft
 ### vs2017
-[https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes)
-[https://www.visualstudio.com/zh-hans/downloads/](https://www.visualstudio.com/zh-hans/downloads/)
+[https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes](https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes)<br>
+[https://www.visualstudio.com/zh-hans/downloads/](https://www.visualstudio.com/zh-hans/downloads/)<br>
 
 |date| version | jdk | cpython | git | ndk | Anaconda |
 |-|-|-|-|-|-|-|
@@ -260,9 +261,9 @@ vs2008-1.68 2011-3-14
 5.7.21
 
 ## nodejs
-[https://nodejs.org/en/](https://nodejs.org/en/)
-[http://www.cnblogs.com/clark159/p/4615031.html](http://www.cnblogs.com/clark159/p/4615031.html)
-[https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)
+[https://nodejs.org/en/](https://nodejs.org/en/)<br>
+[http://www.cnblogs.com/clark159/p/4615031.html](http://www.cnblogs.com/clark159/p/4615031.html)<br>
+[https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)<br>
 
 | 版本| 时间 |
 | - | - |
@@ -283,9 +284,9 @@ vs2008-1.68 2011-3-14
 | - | - |
 | 0.2.20 | 2017-7-24 |
 ## OpenCV
- [http://opencv.org/](http://opencv.org/)
- [https://github.com/opencv/opencv](https://github.com/opencv/opencv)
- [https://github.com/opencv/opencv_contrib](https://github.com/opencv/opencv_contrib)
+ [http://opencv.org/](http://opencv.org/)<br>
+ [https://github.com/opencv/opencv](https://github.com/opencv/opencv)<br>
+ [https://github.com/opencv/opencv_contrib](https://github.com/opencv/opencv_contrib)<br>
 
 | 版本| 时间 | protobuf | libjpeg | libpng | libtiff | zlib |
 |-|-|-|-|-|-|-|
@@ -347,8 +348,8 @@ OpenCV demonstrator (GUI)
 | 2017.2.4 | 172.4343.24 | 2017-10-31 |
 
 ## SWIG
-[http://www.swig.org/](http://www.swig.org/)
-[https://sourceforge.net/projects/swig/files/](https://sourceforge.net/projects/swig/files/)
+[http://www.swig.org/](http://www.swig.org/)<br>
+[https://sourceforge.net/projects/swig/files/](https://sourceforge.net/projects/swig/files/)<br>
 
 | version |  Release |
 | - | - |
@@ -359,8 +360,8 @@ OpenCV demonstrator (GUI)
 1.6.3(2015-3-24)
 
 ## tesseract
-[https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
-[https://github.com/tesseract-ocr/tessdata](https://github.com/tesseract-ocr/tessdata)
+[https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)<br>
+[https://github.com/tesseract-ocr/tessdata](https://github.com/tesseract-ocr/tessdata)<br>
 
 4.00.00dev 2016-11-24
 3.05.01 2017-6-2
@@ -369,9 +370,9 @@ OpenCV demonstrator (GUI)
 
 tbb2017_20160916oss
 ## TinyXML
-[http://sourceforge.net/projects/tinyxml/](http://sourceforge.net/projects/tinyxml/)
-[http://www.grinninglizard.com/tinyxml2/](http://www.grinninglizard.com/tinyxml2/)
-[https://github.com/leethomason/tinyxml2](https://github.com/leethomason/tinyxml2)
+[http://sourceforge.net/projects/tinyxml/](http://sourceforge.net/projects/tinyxml/)<br>
+[http://www.grinninglizard.com/tinyxml2/](http://www.grinninglizard.com/tinyxml2/)<br>
+[https://github.com/leethomason/tinyxml2](https://github.com/leethomason/tinyxml2)<br>
 
 | 项目 | 版本| 时间 |
 | ------ | ------ | ------ |
@@ -381,8 +382,8 @@ tbb2017_20160916oss
 | tinyxml2 | 5.0.1 | 2017-6-27 |
 
 ## Ubuntu
-[http://www.ubuntu.com](http://www.ubuntu.com)
-[https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/)
+[http://www.ubuntu.com](http://www.ubuntu.com)<br>
+[https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/)<br>
 
 18.04
 
@@ -391,13 +392,13 @@ tbb2017_20160916oss
 ## VirtualBox
 [https://www.virtualbox.org/](https://www.virtualbox.org/)
 
-5.2.12(2018-5)
-5.2.10(2018-4)
-5.2.8(2018-2)
-5.2.6(2018-1-15)
-5.2.4(2017-12-19)
-5.2.2(2017-11-24)
-5.2.0(2017-10-18)
+5.2.12(2018-5)<br>
+5.2.10(2018-4)<br>
+5.2.8(2018-2)<br>
+5.2.6(2018-1-15)<br>
+5.2.4(2017-12-19)<br>
+5.2.2(2017-11-24)<br>
+5.2.0(2017-10-18)<br>
 
 
 ## WampServer
@@ -428,14 +429,14 @@ tbb2017_20160916oss
 ## word2vec
 [https://code.google.com/archive/p/word2vec/](https://code.google.com/archive/p/word2vec/)
 ## WpfAnimatedGif
-[http://wpfanimatedgif.codeplex.com/](http://wpfanimatedgif.codeplex.com/)
-[https://github.com/XamlAnimatedGif/WpfAnimatedGif](https://github.com/XamlAnimatedGif/WpfAnimatedGif)
+[http://wpfanimatedgif.codeplex.com/](http://wpfanimatedgif.codeplex.com/)<br>
+[https://github.com/XamlAnimatedGif/WpfAnimatedGif](https://github.com/XamlAnimatedGif/WpfAnimatedGif)<br>
 
 | 版本 | 时间 |
 | - | - |
 | 1.4.15 | 2018-1-11 |
 
 ## yolo
-[https://github.com/pjreddie/darknet](https://github.com/pjreddie/darknet)
-[https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)
+[https://github.com/pjreddie/darknet](https://github.com/pjreddie/darknet)<br>
+[https://github.com/AlexeyAB/darknet](https://github.com/AlexeyAB/darknet)<br>
 
