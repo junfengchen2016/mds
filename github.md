@@ -11,6 +11,7 @@
 |[google/gson](https://github.com/google/gson)|2.8.4|
 |[google/leveldb](https://github.com/google/leveldb)|1.20|
 |[google/protobuf](https://github.com/google/protobuf)|3.6.0|protobuf|
+|[GoogleCloudPlatform/tensorflow-without-a-phd](https://github.com/GoogleCloudPlatform/tensorflow-without-a-phd)||
 |[googlecodelabs/tensorflow-for-poets-2](https://github.com/googlecodelabs/tensorflow-for-poets-2)||
 |[googlecodelabs/tensorflow-style-transfer-android](https://github.com/googlecodelabs/tensorflow-style-transfer-android)||
 |[grpc/grpc](https://github.com/grpc/grpc)|1.13.0|grpc|
