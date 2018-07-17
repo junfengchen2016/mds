@@ -146,6 +146,21 @@ image.show()
 cv2.waitKey()  
 ```
 
+## selenium
+```
+import cv2
+from selenium import webdriver
+
+option = webdriver.ChromeOptions()
+option.add_argument('--headless')   
+
+browser = webdriver.Chrome(options=option)    
+browser.set_window_size(1200, 4900)   
+
+browser.get(url_html)
+bytes = np.asarray(bytearray(browser.get_screenshot_as_png()), dtype="uint8")
+mat_image = cv2.imdecode(bytes, cv2.IMREAD_COLOR)
+```
 
 ## c dll
 注意32位/64位的问题
