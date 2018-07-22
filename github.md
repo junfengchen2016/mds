@@ -51,12 +51,14 @@
 |[itext/rups](https://github.com/itext/rups)|5.5.9||
 |[JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)|11.0.2||
 |[jerryli27/TwinGAN](https://github.com/jerryli27/TwinGAN)||
+|[jinfagang/tensorflow_poems](https://github.com/jinfagang/tensorflow_poems)||
 |[jrosebr1/imutils](https://github.com/jrosebr1/imutils)||imutils|
 |[jquery/jquery](https://github.com/jquery/jquery)|3.3.1|jquery|
 |[keras-team/keras](https://github.com/keras-team/keras)|2.2.0|keras|
 |[leethomason/tinyxml2](https://github.com/leethomason/tinyxml2)|6.2.0|tinyxml2|
 |[LMDB/lmdb](https://github.com/LMDB/lmdb)|0.9.22||
 |[material-components/material-components-web](https://github.com/material-components/material-components-web)|0.35.1|
+|[MaybeShewill-CV/CRNN_Tensorflow](https://github.com/MaybeShewill-CV/CRNN_Tensorflow)||
 |[mdbloice/augmentor](https://github.com/mdbloice/augmentor)|0.2.1|
 |[mind/wheels](https://github.com/mind/wheels)|1.8.0|
 |[migueldeicaza/TensorFlowSharp](https://github.com/migueldeicaza/TensorFlowSharp)|1.7.0|
