@@ -80,6 +80,7 @@
 | 7.2-1511 |  |
 | 7.1-1503 |  |
 | 7.0-1406 |  |
+| 6.10 | 2018-6|
 | 6.8 | 2016-6-16|
 ## Chart.js
 [http://www.chartjs.org/](http://www.chartjs.org/)<br>

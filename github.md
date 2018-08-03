@@ -15,7 +15,7 @@
 |[googlecodelabs/tensorflow-for-poets-2](https://github.com/googlecodelabs/tensorflow-for-poets-2)||
 |[googlecodelabs/tensorflow-style-transfer-android](https://github.com/googlecodelabs/tensorflow-style-transfer-android)||
 |[grpc/grpc](https://github.com/grpc/grpc)|1.13.0|grpc|
-|[tensorflow/models](https://github.com/tensorflow/models)|1.9.0|models|
+|[tensorflow/models](https://github.com/tensorflow/models)|1.10.0|models|
 |[tensorflow/serving](https://github.com/tensorflow/serving)|1.9.0|
 |[tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)|1.6.6|
 |[tensorflow/tensorboard](https://github.com/tensorflow/tensorboard)|1.9.0||

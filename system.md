@@ -101,6 +101,10 @@ pause
 ### 开机启动
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
 
+### FAQ
+
+[如何用UltraISO制作大于4G文件的光盘映像可启动U盘](https://www.jb51.net/softjc/315081.html)
+
 ## ubuntu
 ### 网络配置
 ```
