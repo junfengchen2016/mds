@@ -255,7 +255,7 @@ vs2008-1.68 2011-3-14
 ### vscode
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-1.24
+1.25
 
 [https://marketplace.visualstudio.com/VSCode](https://marketplace.visualstudio.com/VSCode)
 
