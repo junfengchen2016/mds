@@ -8,6 +8,10 @@ sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:jonathonf/python-3.6
 sudo apt-get update
 sudo apt-get install python3.6
+
+cd /usr/bin
+sudo rm python3
+sudo ln -s python3.6m python3
 ```
 安装pip3
 ```
