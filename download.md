@@ -89,6 +89,12 @@
 | 项目 | 时间 |
 | ------ | ------ |
 | 2.7.2 | 2018-3 |
+
+## ChromeDriver
+[http://chromedriver.storage.googleapis.com/](http://chromedriver.storage.googleapis.com/)
+
+[http://npm.taobao.org/mirrors/chromedriver](http://npm.taobao.org/mirrors/chromedriver)
+
 ## CMake
 [http://www.cmake.org/](http://www.cmake.org/)
 
