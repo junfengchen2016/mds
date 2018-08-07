@@ -3,7 +3,7 @@
 ## install
 ### python 3.6-ubuntu1604
 添加python3.6安装包,并且安装
-```
+```bash
 sudo apt-get install software-properties-common
 sudo add-apt-repository ppa:jonathonf/python-3.6
 sudo apt-get update
@@ -13,8 +13,18 @@ cd /usr/bin
 sudo rm python3
 sudo ln -s python3.6m python3
 ```
-安装pip3
+[gnome-terminal 出错 ImportError: cannot import name '_gi'](https://blog.csdn.net/jaket5219999/article/details/78465251)
+```bash
+gnome-terminal
+ls /usr/lib/python3/dist-packages/gi/
+cd /usr/lib/python3/dist-packages/gi/
+$ sudo cp _gi.cpython-35m-x86_64-linux-gnu.so _gi.cpython-36m-x86_64-linux-gnu.so
+$ sudo cp _gi_cairo.cpython-35m-x86_64-linux-gnu.so _gi_cairo.cpython-36m-x86_64-linux-gnu.so
 ```
+
+
+安装pip3
+```bash
 sudo apt-get install curl
 curl https://bootstrap.pypa.io/get-pip.py | sudo python3.6
 ```
