@@ -22,6 +22,16 @@ $ sudo cp _gi.cpython-35m-x86_64-linux-gnu.so _gi.cpython-36m-x86_64-linux-gnu.s
 $ sudo cp _gi_cairo.cpython-35m-x86_64-linux-gnu.so _gi_cairo.cpython-36m-x86_64-linux-gnu.so
 ```
 
+[pip3升级10.0后cannot import name 'main'](https://blog.csdn.net/qq_31643159/article/details/80045275)
+```bash
+sudo gedit /usr/bin/pip3
+```
+```python
+from pip import __main__
+
+if __name__ == '__main__':
+    sys.exit(__main__._main())
+```
 
 安装pip3
 ```bash
