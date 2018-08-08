@@ -61,7 +61,7 @@
 |[material-components/material-components-web](https://github.com/material-components/material-components-web)|0.35.1|
 |[MaybeShewill-CV/CRNN_Tensorflow](https://github.com/MaybeShewill-CV/CRNN_Tensorflow)||
 |[mdbloice/augmentor](https://github.com/mdbloice/augmentor)|0.2.1|
-|[mind/wheels](https://github.com/mind/wheels)|1.8.0|
+|[mind/wheels](https://github.com/mind/wheels)|1.9.0|
 |[migueldeicaza/TensorFlowSharp](https://github.com/migueldeicaza/TensorFlowSharp)|1.7.0|
 |[minimaxir/textgenrnn](https://github.com/minimaxir/textgenrnn)|1.3.1|
 |[mono/SkiaSharp](https://github.com/mono/SkiaSharp)|1.60.1|
