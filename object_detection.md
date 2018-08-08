@@ -76,7 +76,7 @@ python2 object_detection/dataset_tools/create_pascal_tf_record.py \
 ```    
 
 ### Generating the Oxford-IIIT Pet TFRecord files
-```
+```bash
 # From tensorflow/models/research/
 wget http://www.robots.ox.ac.uk/~vgg/data/pets/data/images.tar.gz
 wget http://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz
