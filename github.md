@@ -16,10 +16,10 @@
 |[googlecodelabs/tensorflow-style-transfer-android](https://github.com/googlecodelabs/tensorflow-style-transfer-android)||
 |[grpc/grpc](https://github.com/grpc/grpc)|1.13.0|grpc|
 |[tensorflow/models](https://github.com/tensorflow/models)|1.10.0|models|
-|[tensorflow/serving](https://github.com/tensorflow/serving)|1.9.0|
-|[tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)|1.6.6|
-|[tensorflow/tensorboard](https://github.com/tensorflow/tensorboard)|1.9.0||
-|[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)|1.9.0|tensorflow|
+|[tensorflow/serving](https://github.com/tensorflow/serving)|1.10.0|
+|[tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)|1.7.0|
+|[tensorflow/tensorboard](https://github.com/tensorflow/tensorboard)|1.10.0||
+|[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)|1.10.0|tensorflow|
 |[tensorflow/tfjs](https://github.com/tensorflow/tfjs)|0.12.0|
 |[tensorflow/tfjs-examples](https://github.com/tensorflow/tfjs-examples)||
 |[zxing/zxing](https://github.com/zxing/zxing)|3.3.2|
