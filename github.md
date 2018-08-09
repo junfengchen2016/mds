@@ -44,7 +44,7 @@
 |[dmlc/gluon-nlp](https://github.com/dmlc/gluon-nlp)|0.2.0|
 |[eigenteam/eigen-git-mirror](https://github.com/eigenteam/eigen-git-mirror)|3.3.4|
 |[ericniebler/range-v3](https://github.com/ericniebler/range-v3)|0.3.6|
-|[fo40225/tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel)|1.8.0|
+|[fo40225/tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel)|1.9.0|
 |[glassechidna/zxing-cpp](https://github.com/glassechidna/zxing-cpp)||
 |[lllyasviel/style2paints](https://github.com/lllyasviel/style2paints)|
 |[itext/itext7-dotnet](https://github.com/itext/itext7-dotnet)|7.1.2|itext7|
