@@ -59,6 +59,7 @@ sudo apt-get install firefox
 虚拟光驱载入ISO
 装机工具->install.wim->选路径
 ```
+[用软碟同(UtroISO)制作install.win大于4G的启动盘](https://blog.csdn.net/he_qiao/article/details/44571339)
 ```
 【解决 U盘安装Windows Server 2012 R2 报错 Windows 无法打开所需的文件 Sources\install.wim】
 报错原因：
