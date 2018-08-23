@@ -10,13 +10,13 @@
 |[google/googletest](https://github.com/google/googletest)|1.8.0|
 |[google/gson](https://github.com/google/gson)|2.8.4|
 |[google/leveldb](https://github.com/google/leveldb)|1.20|
-|[google/protobuf](https://github.com/google/protobuf)|3.6.0|protobuf|
+|[google/protobuf](https://github.com/google/protobuf)|3.6.1|protobuf|
 |[GoogleCloudPlatform/tensorflow-without-a-phd](https://github.com/GoogleCloudPlatform/tensorflow-without-a-phd)||
 |[googlecodelabs/tensorflow-for-poets-2](https://github.com/googlecodelabs/tensorflow-for-poets-2)||
 |[googlecodelabs/tensorflow-style-transfer-android](https://github.com/googlecodelabs/tensorflow-style-transfer-android)||
-|[grpc/grpc](https://github.com/grpc/grpc)|1.13.0|grpc|
+|[grpc/grpc](https://github.com/grpc/grpc)|1.14.1|grpc|
 |[tensorflow/models](https://github.com/tensorflow/models)|1.10.0|models|
-|[tensorflow/serving](https://github.com/tensorflow/serving)|1.10.0|
+|[tensorflow/serving](https://github.com/tensorflow/serving)|1.10.1| serving |
 |[tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)|1.7.0|
 |[tensorflow/tensorboard](https://github.com/tensorflow/tensorboard)|1.10.0||
 |[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)|1.10.0|tensorflow|
