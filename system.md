@@ -59,6 +59,7 @@ sudo apt-get install firefox
 虚拟光驱载入ISO
 装机工具->install.wim->选路径
 ```
+[用软碟同(UtroISO)制作install.win大于4G的启动盘](https://blog.csdn.net/he_qiao/article/details/44571339)
 ```
 【解决 U盘安装Windows Server 2012 R2 报错 Windows 无法打开所需的文件 Sources\install.wim】
 报错原因：
@@ -165,5 +166,13 @@ ultraiso
 文件->打开(iso)->启动->写入硬盘镜像->写入方式(USB-HDD)->便捷启动(写入新的驱动器引导扇区|Syslinux)->写入
 ```
 
+### Boot Repair
+[Ubuntu 14.04 引导修复（Boot Repair）（双系统修复一）](https://blog.csdn.net/piaocoder/article/details/50589667)
+```bash
+# try ubuntu
+sudo add-apt-repository ppa:yannubuntu/boot-repair && sudo apt-get update
+sudo apt-get install -y boot-repair && boot-repair
+# Recommended repair
+```
 
 
