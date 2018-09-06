@@ -15,7 +15,7 @@
 |[googlecodelabs/tensorflow-for-poets-2](https://github.com/googlecodelabs/tensorflow-for-poets-2)||
 |[googlecodelabs/tensorflow-style-transfer-android](https://github.com/googlecodelabs/tensorflow-style-transfer-android)||
 |[grpc/grpc](https://github.com/grpc/grpc)|1.14.1|grpc|
-|[tensorflow/models](https://github.com/tensorflow/models)|1.10.0|models|
+|[tensorflow/models](https://github.com/tensorflow/models)|1.11|models|
 |[tensorflow/serving](https://github.com/tensorflow/serving)|1.10.1| serving |
 |[tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)|1.7.0|
 |[tensorflow/tensorboard](https://github.com/tensorflow/tensorboard)|1.10.0||
@@ -44,7 +44,7 @@
 |[dmlc/gluon-nlp](https://github.com/dmlc/gluon-nlp)|0.2.0|
 |[eigenteam/eigen-git-mirror](https://github.com/eigenteam/eigen-git-mirror)|3.3.4|
 |[ericniebler/range-v3](https://github.com/ericniebler/range-v3)|0.3.6|
-|[fo40225/tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel)|1.9.0|
+|[fo40225/tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel)|1.10.0|
 |[glassechidna/zxing-cpp](https://github.com/glassechidna/zxing-cpp)||
 |[lllyasviel/style2paints](https://github.com/lllyasviel/style2paints)|
 |[itext/itext7-dotnet](https://github.com/itext/itext7-dotnet)|7.1.2|itext7|
