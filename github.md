@@ -15,6 +15,7 @@
 |[googlecodelabs/tensorflow-for-poets-2](https://github.com/googlecodelabs/tensorflow-for-poets-2)||
 |[googlecodelabs/tensorflow-style-transfer-android](https://github.com/googlecodelabs/tensorflow-style-transfer-android)||
 |[grpc/grpc](https://github.com/grpc/grpc)|1.14.1|grpc|
+|[tensorflow/docs](https://github.com/tensorflow/docs)|
 |[tensorflow/models](https://github.com/tensorflow/models)|1.11|models|
 |[tensorflow/serving](https://github.com/tensorflow/serving)|1.10.1| serving |
 |[tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)|1.7.0|
@@ -47,7 +48,7 @@
 |[fo40225/tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel)|1.10.0|
 |[glassechidna/zxing-cpp](https://github.com/glassechidna/zxing-cpp)||
 |[lllyasviel/style2paints](https://github.com/lllyasviel/style2paints)|
-|[itext/itext7-dotnet](https://github.com/itext/itext7-dotnet)|7.1.2|itext7|
+|[itext/itext7-dotnet](https://github.com/itext/itext7-dotnet)|7.1.3|itext7|
 |[itext/itextsharp](https://github.com/itext/itextsharp)|5.5.13|
 |[itext/rups](https://github.com/itext/rups)|5.5.9||
 |[JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)|11.0.2||
