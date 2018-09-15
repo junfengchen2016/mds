@@ -100,6 +100,7 @@
 
 | 版本 | 时间 |
 | -  | -  |
+| 3.12.2 | 2018 |
 | 3.12.1 | 2018 |
 | 3.11.4 | 2018 |
 | 3.11.0 | 2018-3 |
@@ -146,6 +147,7 @@ oxygen-2
 
 | Eletron | 时间 | Node | Chromium | V8 |
 | - | - | - | - | - |
+| 2.0.9 | 2018-9 |
 | 2.0.2 | 2018-5 | 8.9.3 | 61.0.3163.100 |  |
 | 1.8.4 | 2018-3 | 8.2.1 | 59.0.3071.115 |  |
 | 1.8.3 | 2018-3 | 8.2.1 | 59.0.3071.115 |  |
@@ -172,7 +174,7 @@ oxygen-2
 | 项目 | 版本 | 链接 |
 | ------ | ------ | ------ |
 | git | 2.16.2 | [https://git-for-windows.github.io/](https://git-for-windows.github.io/) |
-| tortoisegit | 2.6.0.0 | [http://download.tortoisegit.org/](http://download.tortoisegit.org/) |
+| tortoisegit | 2.7.0 | [http://download.tortoisegit.org/](http://download.tortoisegit.org/) |
 
 ## google
 ### tensorflow
@@ -255,6 +257,7 @@ vs2008-1.68 2011-3-14
 
 |date| version | jdk | cpython | git | ndk | Anaconda |
 |-|-|-|-|-|-|-|
+| 2018-9-11 | 15.8.4 |
 | 2018-9-6 | 15.8.3 |
 | 2018-8-28 | 15.8.2 |
 | 2018-8-17 | 15.8.1 |
@@ -284,6 +287,7 @@ vs2008-1.68 2011-3-14
 
 | 版本| 时间 |
 | - | - |
+| v8.12.0 LTS | 2018-9 |
 | v8.11.4 LTS | 2018-8 |
 | v8.11.3 LTS | 2018-6 |
 | v8.11.2 LTS | 2018-5 |
