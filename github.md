@@ -47,6 +47,7 @@
 |[ericniebler/range-v3](https://github.com/ericniebler/range-v3)|0.3.6|
 |[fo40225/tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel)|1.10.0|
 |[glassechidna/zxing-cpp](https://github.com/glassechidna/zxing-cpp)||
+|[Honlan/DeepInterests](https://github.com/Honlan/DeepInterests)||深度有趣 |
 |[lllyasviel/style2paints](https://github.com/lllyasviel/style2paints)|
 |[itext/itext7-dotnet](https://github.com/itext/itext7-dotnet)|7.1.3|itext7|
 |[itext/itextsharp](https://github.com/itext/itextsharp)|5.5.13|
