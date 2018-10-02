@@ -20,7 +20,7 @@
 |[tensorflow/serving](https://github.com/tensorflow/serving)|1.10.1| serving |
 |[tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)|1.7.0|
 |[tensorflow/tensorboard](https://github.com/tensorflow/tensorboard)|1.10.0||
-|[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)|1.10.1|tensorflow|
+|[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)|1.11.0|tensorflow|
 |[tensorflow/tfjs](https://github.com/tensorflow/tfjs)|0.12.0|
 |[tensorflow/tfjs-examples](https://github.com/tensorflow/tfjs-examples)||
 |[zxing/zxing](https://github.com/zxing/zxing)|3.3.2|
