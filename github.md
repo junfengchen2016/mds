@@ -14,12 +14,12 @@
 |[GoogleCloudPlatform/tensorflow-without-a-phd](https://github.com/GoogleCloudPlatform/tensorflow-without-a-phd)||
 |[googlecodelabs/tensorflow-for-poets-2](https://github.com/googlecodelabs/tensorflow-for-poets-2)||
 |[googlecodelabs/tensorflow-style-transfer-android](https://github.com/googlecodelabs/tensorflow-style-transfer-android)||
-|[grpc/grpc](https://github.com/grpc/grpc)|1.14.1|grpc|
+|[grpc/grpc](https://github.com/grpc/grpc)|1.15.1|grpc|
 |[tensorflow/docs](https://github.com/tensorflow/docs)|
 |[tensorflow/models](https://github.com/tensorflow/models)|1.11|models|
 |[tensorflow/serving](https://github.com/tensorflow/serving)|1.11.0| serving |
-|[tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)|1.7.0|
-|[tensorflow/tensorboard](https://github.com/tensorflow/tensorboard)|1.10.0||
+|[tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)|1.9.0|
+|[tensorflow/tensorboard](https://github.com/tensorflow/tensorboard)|1.11.0||
 |[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)|1.11.0|tensorflow|
 |[tensorflow/tfjs](https://github.com/tensorflow/tfjs)|0.12.0|
 |[tensorflow/tfjs-examples](https://github.com/tensorflow/tfjs-examples)||
