@@ -68,8 +68,8 @@
 |[minimaxir/textgenrnn](https://github.com/minimaxir/textgenrnn)|1.3.1|
 |[mono/SkiaSharp](https://github.com/mono/SkiaSharp)|1.60.1|
 |[open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp)|1.8.4|jsoncpp|
-|[opencv/opencv](https://github.com/opencv/opencv)|3.4.2|opencv|
-|[opencv/opencv_contrib](https://github.com/opencv/opencv_contrib)|3.4.2|opencv_contrib|
+|[opencv/opencv](https://github.com/opencv/opencv)|3.4.3|opencv|
+|[opencv/opencv_contrib](https://github.com/opencv/opencv_contrib)|3.4.3|opencv_contrib|
 |[philferriere/cocoapi](https://github.com/philferriere/cocoapi)||
 |[q-gao/progressive-growing-gan](https://github.com/q-gao/progressive-growing-gan)||
 |[shimat/opencvsharp](https://github.com/shimat/opencvsharp)|3.4.1|opencvsharp|
