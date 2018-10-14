@@ -14,12 +14,12 @@
 |[GoogleCloudPlatform/tensorflow-without-a-phd](https://github.com/GoogleCloudPlatform/tensorflow-without-a-phd)||
 |[googlecodelabs/tensorflow-for-poets-2](https://github.com/googlecodelabs/tensorflow-for-poets-2)||
 |[googlecodelabs/tensorflow-style-transfer-android](https://github.com/googlecodelabs/tensorflow-style-transfer-android)||
-|[grpc/grpc](https://github.com/grpc/grpc)|1.14.1|grpc|
+|[grpc/grpc](https://github.com/grpc/grpc)|1.15.1|grpc|
 |[tensorflow/docs](https://github.com/tensorflow/docs)|
 |[tensorflow/models](https://github.com/tensorflow/models)|1.11|models|
-|[tensorflow/serving](https://github.com/tensorflow/serving)|1.10.1| serving |
-|[tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)|1.7.0|
-|[tensorflow/tensorboard](https://github.com/tensorflow/tensorboard)|1.10.0||
+|[tensorflow/serving](https://github.com/tensorflow/serving)|1.11.0| serving |
+|[tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)|1.9.0|
+|[tensorflow/tensorboard](https://github.com/tensorflow/tensorboard)|1.11.0||
 |[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)|1.11.0|tensorflow|
 |[tensorflow/tfjs](https://github.com/tensorflow/tfjs)|0.12.0|
 |[tensorflow/tfjs-examples](https://github.com/tensorflow/tfjs-examples)||
@@ -45,7 +45,7 @@
 |[dmlc/gluon-nlp](https://github.com/dmlc/gluon-nlp)|0.2.0|
 |[eigenteam/eigen-git-mirror](https://github.com/eigenteam/eigen-git-mirror)|3.3.4|
 |[ericniebler/range-v3](https://github.com/ericniebler/range-v3)|0.3.6|
-|[fo40225/tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel)|1.10.0|
+|[fo40225/tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel)|1.11.0|
 |[glassechidna/zxing-cpp](https://github.com/glassechidna/zxing-cpp)||
 |[Honlan/DeepInterests](https://github.com/Honlan/DeepInterests)||深度有趣 |
 |[lllyasviel/style2paints](https://github.com/lllyasviel/style2paints)|
@@ -68,8 +68,8 @@
 |[minimaxir/textgenrnn](https://github.com/minimaxir/textgenrnn)|1.3.1|
 |[mono/SkiaSharp](https://github.com/mono/SkiaSharp)|1.60.1|
 |[open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp)|1.8.4|jsoncpp|
-|[opencv/opencv](https://github.com/opencv/opencv)|3.4.2|opencv|
-|[opencv/opencv_contrib](https://github.com/opencv/opencv_contrib)|3.4.2|opencv_contrib|
+|[opencv/opencv](https://github.com/opencv/opencv)|3.4.3|opencv|
+|[opencv/opencv_contrib](https://github.com/opencv/opencv_contrib)|3.4.3|opencv_contrib|
 |[philferriere/cocoapi](https://github.com/philferriere/cocoapi)||
 |[q-gao/progressive-growing-gan](https://github.com/q-gao/progressive-growing-gan)||
 |[shimat/opencvsharp](https://github.com/shimat/opencvsharp)|3.4.1|opencvsharp|

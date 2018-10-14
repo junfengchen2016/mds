@@ -95,22 +95,6 @@
 
 [http://npm.taobao.org/mirrors/chromedriver](http://npm.taobao.org/mirrors/chromedriver)
 
-## CMake
-[http://www.cmake.org/](http://www.cmake.org/)
-
-| 版本 | 时间 |
-| -  | -  |
-| 3.12.2 | 2018 |
-| 3.12.1 | 2018 |
-| 3.11.4 | 2018 |
-| 3.11.0 | 2018-3 |
-| 3.10.2 | 2018-1-18 |
-| 3.10.1 | 2017-12-14 |
-| 3.10.0 | 2017-11-20 |
-| 3.9.6 | 2017-11-10 |
-| 3.9.5 | 2017-11-3 |
-| 3.9.4 | 2017-10-4 |
-| 3.9.3 | 2017-9-20 |
 ## CUDA/cuDNN
 [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads)<br>
 [https://developer.nvidia.com/cudnn](https://developer.nvidia.com/cudnn)<br>
@@ -124,8 +108,6 @@
 | cuDNN | v7.0.5 for CUDA 9.1 | 2017-12-11 |
 | cuDNN | v7.0.5 for CUDA 9.0 | 2017-12-5 |
 | cuDNN | v6.0 for CUDA 7.5 | 2017-4-27 |
-## Cygwin
-[http://www.cygwin.com/](http://www.cygwin.com/)
 
 2.9.0
 
@@ -243,7 +225,7 @@ oxygen-2
 
 2017-5-2
 ## LMDB
-[https://github.com/LMDB/lmdb](https://github.com/LMDB/lmdb) 0.9.21 2017-6
+[https://github.com/LMDB/lmdb](https://github.com/LMDB/lmdb) 0.9.22 2018-3
 ## Leptonica
 [http://www.leptonica.com/](http://www.leptonica.com/) 
 
@@ -257,7 +239,8 @@ vs2008-1.68 2011-3-14
 
 |date| version | jdk | cpython | git | ndk | Anaconda |
 |-|-|-|-|-|-|-|
-| 2018-10-2 | 15.8.6 | | | 2.17.1.2|
+| 2018-10-10 | 15.8.7 | | | 2.17.1.2 |
+| 2018-10-2 | 15.8.6 |
 | 2018-9-20 | 15.8.5 |
 | 2018-9-11 | 15.8.4 |
 | 2018-9-6 | 15.8.3 |
