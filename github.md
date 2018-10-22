@@ -31,7 +31,7 @@
 |[Microsoft/CNTK](https://github.com/Microsoft/CNTK)|2.5.1||
 |[Microsoft/dotnet](https://github.com/Microsoft/dotnet)|||
 |[Microsoft/Range-V3-VS2015](https://github.com/Microsoft/Range-V3-VS2015)|vcpkg5|
-|[Microsoft/vscode](https://github.com/Microsoft/vscode)|1.24.0||
+|[Microsoft/vscode](https://github.com/Microsoft/vscode)|1.28.2||
 |[Microsoft/Windows-Machine-Learning](https://github.com/Microsoft/Windows-Machine-Learning)||
 |[PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)|6.0.2|
 
