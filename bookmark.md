@@ -1,5 +1,11 @@
 # bookmark
 ## 门户
-* [新浪网](www.sina.com.cn)
-* [凤凰网](www.ifeng.com)
-* [文学城](www.wenxuecity.com)
+* [新浪网](http://www.sina.com.cn)
+* [手机新浪网](http://sina.cn)
+* [凤凰网](http://www.ifeng.com)
+* [手机凤凰网](http://i.ifeng.com)
+* [文学城](http://www.wenxuecity.com)
+## 购物
+* [京东](http://www.jd.com)
+* [手机京东](http://m.jd.com/)
+* [小米商城](http://www.mi.com)
