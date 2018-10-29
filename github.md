@@ -49,7 +49,7 @@
 |[glassechidna/zxing-cpp](https://github.com/glassechidna/zxing-cpp)||
 |[Honlan/DeepInterests](https://github.com/Honlan/DeepInterests)||深度有趣 |
 |[lllyasviel/style2paints](https://github.com/lllyasviel/style2paints)|
-|[itext/itext7-dotnet](https://github.com/itext/itext7-dotnet)|7.1.3|itext7|
+|[itext/itext7-dotnet](https://github.com/itext/itext7-dotnet)|7.1.4|itext7|
 |[itext/itextsharp](https://github.com/itext/itextsharp)|5.5.13|
 |[itext/rups](https://github.com/itext/rups)|5.5.9||
 |[JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json)|11.0.2||
