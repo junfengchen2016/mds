@@ -273,8 +273,9 @@ vs2008-1.68 2011-3-14
 [http://www.cnblogs.com/clark159/p/4615031.html](http://www.cnblogs.com/clark159/p/4615031.html)<br>
 [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)<br>
 
-| 版本| 时间 |
-| - | - |
+| 版本| 时间 | V8 |
+|-|-|-|
+| v10.13.0 LTS | 2018-10 | 6.8 |
 | v8.12.0 LTS | 2018-9 |
 | v8.11.4 LTS | 2018-8 |
 | v8.11.3 LTS | 2018-6 |
@@ -298,6 +299,7 @@ vs2008-1.68 2011-3-14
 | 3.4.3 | 2018-8 |
 | 3.4.2 | 2018-7 | 3.5.1 | 9b | 1.6.34 | 4.0.9 | 1.2.11 |
 | 3.4.1 | 2018-2 | 3.5.1 | 9b | 1.6.34 | 4.0.9 | 1.2.11 |
+| 2.4.13.6 | 2018-2 |  |
 | 3.4.0 | 2017-12 | 3.1.0 | 9b | 1.6.34 | 4.0.9 | 1.2.11 |
 | 2.4.13.5 | 2017-12 |  |
 | 3.3.1 | 2017-10 | 3.1.0 | 9 | 1.6.24 | 4.0.2 | 1.2.8 |
@@ -370,8 +372,11 @@ OpenCV demonstrator (GUI)
 [https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)<br>
 [https://github.com/tesseract-ocr/tessdata](https://github.com/tesseract-ocr/tessdata)<br>
 
-4.00.00dev 2016-11-24
-3.05.01 2017-6-2
+| version |  Release |
+| - | - |
+| 4.0.0 | 2018-10 |
+| 3.05.01 | 2017-6-2 |
+
 ## tbb
 [https://www.threadingbuildingblocks.org](https://www.threadingbuildingblocks.org)
 
