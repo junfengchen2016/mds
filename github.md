@@ -18,17 +18,17 @@
 |[tensorflow/docs](https://github.com/tensorflow/docs)|
 |[tensorflow/models](https://github.com/tensorflow/models)|1.11|models|
 |[tensorflow/serving](https://github.com/tensorflow/serving)|1.11.1| serving |
-|[tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)|1.9.0|
-|[tensorflow/tensorboard](https://github.com/tensorflow/tensorboard)|1.11.0||
+|[tensorflow/tensor2tensor](https://github.com/tensorflow/tensor2tensor)|1.10.0|
+|[tensorflow/tensorboard](https://github.com/tensorflow/tensorboard)|1.12.0||
 |[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)|1.11.0|tensorflow|
-|[tensorflow/tfjs](https://github.com/tensorflow/tfjs)|0.12.0|
+|[tensorflow/tfjs](https://github.com/tensorflow/tfjs)|0.13.0|
 |[tensorflow/tfjs-examples](https://github.com/tensorflow/tfjs-examples)||
 |[zxing/zxing](https://github.com/zxing/zxing)|3.3.2|
 
 ## microsoft
 |item|version|star|
 |-|-|-|
-|[Microsoft/CNTK](https://github.com/Microsoft/CNTK)|2.5.1||
+|[Microsoft/CNTK](https://github.com/Microsoft/CNTK)|2.6||
 |[Microsoft/dotnet](https://github.com/Microsoft/dotnet)|||
 |[Microsoft/Range-V3-VS2015](https://github.com/Microsoft/Range-V3-VS2015)|vcpkg5|
 |[Microsoft/vscode](https://github.com/Microsoft/vscode)|1.28.2||
@@ -73,6 +73,11 @@
 |[philferriere/cocoapi](https://github.com/philferriere/cocoapi)||
 |[q-gao/progressive-growing-gan](https://github.com/q-gao/progressive-growing-gan)||
 |[shimat/opencvsharp](https://github.com/shimat/opencvsharp)|3.4.1|opencvsharp|
+|[Shirhe-Lyh/mask_rcnn_test](https://github.com/Shirhe-Lyh/mask_rcnn_test)||TensorFlow 训练 Mask R-CNN 模型|
+|[tesseract-ocr/tessdata](https://github.com/tesseract-ocr/tessdata)|
+|[tesseract-ocr/tessdata_best](https://github.com/tesseract-ocr/tessdata_best)|
+|[tesseract-ocr/tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast)|
+|[tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)|
 |[TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace)|2.0.2|
 |[TerenceCYJ/Video_Object_Detection](https://github.com/TerenceCYJ/Video_Object_Detection)||
 |[taki0112_StarGAN-Tensorflow](https://github.com/taki0112/StarGAN-Tensorflow)|||
