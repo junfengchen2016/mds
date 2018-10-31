@@ -23,6 +23,10 @@
 |[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)|1.11.0|tensorflow|
 |[tensorflow/tfjs](https://github.com/tensorflow/tfjs)|0.13.0|
 |[tensorflow/tfjs-examples](https://github.com/tensorflow/tfjs-examples)||
+|[tesseract-ocr/tessdata](https://github.com/tesseract-ocr/tessdata)|4.0|
+|[tesseract-ocr/tessdata_best](https://github.com/tesseract-ocr/tessdata_best)|
+|[tesseract-ocr/tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast)|
+|[tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)|4.0.0|
 |[zxing/zxing](https://github.com/zxing/zxing)|3.3.2|
 
 ## microsoft
@@ -74,10 +78,6 @@
 |[q-gao/progressive-growing-gan](https://github.com/q-gao/progressive-growing-gan)||
 |[shimat/opencvsharp](https://github.com/shimat/opencvsharp)|3.4.1|opencvsharp|
 |[Shirhe-Lyh/mask_rcnn_test](https://github.com/Shirhe-Lyh/mask_rcnn_test)||TensorFlow 训练 Mask R-CNN 模型|
-|[tesseract-ocr/tessdata](https://github.com/tesseract-ocr/tessdata)|
-|[tesseract-ocr/tessdata_best](https://github.com/tesseract-ocr/tessdata_best)|
-|[tesseract-ocr/tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast)|
-|[tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)|
 |[TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace)|2.0.2|
 |[TerenceCYJ/Video_Object_Detection](https://github.com/TerenceCYJ/Video_Object_Detection)||
 |[taki0112_StarGAN-Tensorflow](https://github.com/taki0112/StarGAN-Tensorflow)|||

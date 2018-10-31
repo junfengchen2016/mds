@@ -260,7 +260,7 @@ vs2008-1.68 2011-3-14
 ### vscode
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-1.27
+1.28
 
 [https://marketplace.visualstudio.com/VSCode](https://marketplace.visualstudio.com/VSCode)
 
@@ -367,15 +367,6 @@ OpenCV demonstrator (GUI)
 [http://synergykm.com/binaries/](http://synergykm.com/binaries/ "http://synergykm.com/binaries/")
 
 1.6.3(2015-3-24)
-
-## tesseract
-[https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)<br>
-[https://github.com/tesseract-ocr/tessdata](https://github.com/tesseract-ocr/tessdata)<br>
-
-| version |  Release |
-| - | - |
-| 4.0.0 | 2018-10 |
-| 3.05.01 | 2017-6-2 |
 
 ## tbb
 [https://www.threadingbuildingblocks.org](https://www.threadingbuildingblocks.org)
