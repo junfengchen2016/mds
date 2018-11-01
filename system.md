@@ -100,7 +100,19 @@ pause
 ```
 
 ### 开机启动
+```
 C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
+```
+
+### Hyper-V
+管理员模式运行 CMD:
+```
+//To disable:
+bcdedit /set hypervisorlaunchtype off
+
+//To enable:
+bcdedit /set hypervisorlaunchtype auto 
+```
 
 ### FAQ
 
