@@ -5,7 +5,7 @@
 |-|-|-|
 |[davidsandberg/facenet](https://github.com/davidsandberg/facenet)||facenet|
 |[gflags/gflags](https://github.com/gflags/gflags)|2.2.1|gflags|
-|[google/flatbuffers](https://github.com/google/flatbuffers)|1.9.0|
+|[google/flatbuffers](https://github.com/google/flatbuffers)|1.10.0|
 |[google/glog](https://github.com/google/glog)|0.3.5|
 |[google/googletest](https://github.com/google/googletest)|1.8.0|
 |[google/gson](https://github.com/google/gson)|2.8.4|
@@ -23,11 +23,12 @@
 |[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)|1.11.0|tensorflow|
 |[tensorflow/tfjs](https://github.com/tensorflow/tfjs)|0.13.0|
 |[tensorflow/tfjs-examples](https://github.com/tensorflow/tfjs-examples)||
+|[tesseract-ocr/langdata](https://github.com/tesseract-ocr/langdata)||
 |[tesseract-ocr/tessdata](https://github.com/tesseract-ocr/tessdata)|4.0|
-|[tesseract-ocr/tessdata_best](https://github.com/tesseract-ocr/tessdata_best)|
-|[tesseract-ocr/tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast)|
+|[tesseract-ocr/tessdata_best](https://github.com/tesseract-ocr/tessdata_best)|4.0|
+|[tesseract-ocr/tessdata_fast](https://github.com/tesseract-ocr/tessdata_fast)|4.0|
 |[tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)|4.0.0|
-|[zxing/zxing](https://github.com/zxing/zxing)|3.3.2|
+|[zxing/zxing](https://github.com/zxing/zxing)|3.3.3|
 
 ## microsoft
 |item|version|star|
@@ -37,7 +38,7 @@
 |[Microsoft/Range-V3-VS2015](https://github.com/Microsoft/Range-V3-VS2015)|vcpkg5|
 |[Microsoft/vscode](https://github.com/Microsoft/vscode)|1.28.2||
 |[Microsoft/Windows-Machine-Learning](https://github.com/Microsoft/Windows-Machine-Learning)||
-|[PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)|6.0.2|
+|[PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)|6.1.0|
 
 ## github
 |item|version|note|
@@ -45,7 +46,7 @@
 |[A-bone1/Attention-ocr-Chinese-Version](https://github.com/A-bone1/Attention-ocr-Chinese-Version)|||
 |[aria2/aria2](https://github.com/aria2/aria2)|1.34.0|
 |[cchen156/Learning-to-See-in-the-Dark](https://github.com/cchen156/Learning-to-See-in-the-Dark)|
-|[CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)|1.3.0|
+|[CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)|1.4.0|
 |[dmlc/gluon-nlp](https://github.com/dmlc/gluon-nlp)|0.2.0|
 |[eigenteam/eigen-git-mirror](https://github.com/eigenteam/eigen-git-mirror)|3.3.4|
 |[ericniebler/range-v3](https://github.com/ericniebler/range-v3)|0.3.6|
@@ -61,12 +62,12 @@
 |[jinfagang/tensorflow_poems](https://github.com/jinfagang/tensorflow_poems)||
 |[jrosebr1/imutils](https://github.com/jrosebr1/imutils)||imutils|
 |[jquery/jquery](https://github.com/jquery/jquery)|3.3.1|jquery|
-|[keras-team/keras](https://github.com/keras-team/keras)|2.2.0|keras|
+|[keras-team/keras](https://github.com/keras-team/keras)|2.2.4|keras|
 |[leethomason/tinyxml2](https://github.com/leethomason/tinyxml2)|6.2.0|tinyxml2|
 |[LMDB/lmdb](https://github.com/LMDB/lmdb)|0.9.22||
 |[material-components/material-components-web](https://github.com/material-components/material-components-web)|0.35.1|
 |[MaybeShewill-CV/CRNN_Tensorflow](https://github.com/MaybeShewill-CV/CRNN_Tensorflow)||
-|[mdbloice/augmentor](https://github.com/mdbloice/augmentor)|0.2.1|
+|[mdbloice/augmentor](https://github.com/mdbloice/augmentor)|0.2.3|
 |[mind/wheels](https://github.com/mind/wheels)|1.8.0|
 |[migueldeicaza/TensorFlowSharp](https://github.com/migueldeicaza/TensorFlowSharp)|1.7.0|
 |[minimaxir/textgenrnn](https://github.com/minimaxir/textgenrnn)|1.3.1|
@@ -78,7 +79,7 @@
 |[q-gao/progressive-growing-gan](https://github.com/q-gao/progressive-growing-gan)||
 |[shimat/opencvsharp](https://github.com/shimat/opencvsharp)|3.4.1|opencvsharp|
 |[Shirhe-Lyh/mask_rcnn_test](https://github.com/Shirhe-Lyh/mask_rcnn_test)||TensorFlow 训练 Mask R-CNN 模型|
-|[TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace)|2.0.2|
+|[TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace)|2.0.6|
 |[TerenceCYJ/Video_Object_Detection](https://github.com/TerenceCYJ/Video_Object_Detection)||
 |[taki0112_StarGAN-Tensorflow](https://github.com/taki0112/StarGAN-Tensorflow)|||
 |[tsdconseil/opencv-demonstrator](https://github.com/tsdconseil/opencv-demonstrator)|1.3.0|
