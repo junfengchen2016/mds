@@ -221,13 +221,6 @@ oxygen-2
 ## Leaflet
 [http://leafletjs.com/index.html](http://leafletjs.com/index.html) 1.0.1 
 
-2016-9-30
-## Leveldb
-[https://github.com/google/leveldb/](https://github.com/google/leveldb/) 1.20 
-
-2017-5-2
-## LMDB
-[https://github.com/LMDB/lmdb](https://github.com/LMDB/lmdb) 0.9.22 2018-3
 ## Leptonica
 [http://www.leptonica.com/](http://www.leptonica.com/) 
 
@@ -396,6 +389,7 @@ tbb2017_20160916oss
 ## VirtualBox
 [https://www.virtualbox.org/](https://www.virtualbox.org/)
 
+5.2.20(2018-10)<br>
 5.2.18(2018-8)<br>
 5.2.16(2018-7)<br>
 5.2.12(2018-5)<br>
@@ -428,6 +422,7 @@ tbb2017_20160916oss
 
 | 版本 | 时间 |
 | - | - |
+| 2.6.4 | |
 | 2.6.1 | 2018-5 |
 | 2.6.0 | 2018-4 |
 | 2.4.5 |  |

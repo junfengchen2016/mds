@@ -7,8 +7,8 @@
 |[gflags/gflags](https://github.com/gflags/gflags)|2.2.1|gflags|
 |[google/flatbuffers](https://github.com/google/flatbuffers)|1.10.0|
 |[google/glog](https://github.com/google/glog)|0.3.5|
-|[google/googletest](https://github.com/google/googletest)|1.8.0|
-|[google/gson](https://github.com/google/gson)|2.8.4|
+|[google/googletest](https://github.com/google/googletest)|1.8.1|
+|[google/gson](https://github.com/google/gson)|2.8.5|
 |[google/leveldb](https://github.com/google/leveldb)|1.20|
 |[google/protobuf](https://github.com/google/protobuf)|3.6.1|protobuf|
 |[GoogleCloudPlatform/tensorflow-without-a-phd](https://github.com/GoogleCloudPlatform/tensorflow-without-a-phd)||
