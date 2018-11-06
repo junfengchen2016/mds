@@ -1,8 +1,12 @@
 # Tesseract OCR
 
+* [APIExample](https://github.com/tesseract-ocr/tesseract/wiki/APIExample)
 * [TrainingTesseract 4.00](https://github.com/tesseract-ocr/tesseract/wiki/TrainingTesseract-4.00)
+* [pytesseract · PyPI](https://pypi.org/project/pytesseract/)
 * [训练Tesseract4.0](https://ivanzz1001.github.io/records/post/ocr/2017/09/18/tesseract-training)
 * [Tesseract中英文正体斜体混合训练](https://www.jianshu.com/p/b219ea55f130)
+* [Tess4.0手动合并输入数据及模型训练流程](https://www.jianshu.com/p/28aabd574d3a)
+* [特殊字符语言包训练流程（新）](https://www.jianshu.com/p/7a2c40dd6560)
 
 
 ## compile
@@ -33,8 +37,8 @@ cd tesseract
 mkdir win64 && cd win64
 cppan ..
 cmake .. -G "Visual Studio 14 2015 Win64"
-cppan --generate .
-5 在win64目录下找到tesseract.sln文件，用VS2015打开该文件，点击【生成】按钮，根据相应错误进行改错。
+cmake .. -G "Visual Studio 15 2017 Win64"
+5 在win64目录下找到tesseract.sln文件，用VS2015打开该文件，点击【生成】按钮，根据相应错误进行改错。(带签名的utf-8编码)
 ```
 
 ## train
@@ -67,7 +71,7 @@ export SCROLLVIEW_PATH=$PWD/java
 
 mkdir -p ~/tesstutorial/specialoutput
 
-training/lstmtraining --debug_interval 100 \
+lstmtraining --debug_interval 100 \
 --traineddata ~/tesstutorial/trainspecial/chi_sim/chi_sim.traineddata \
 --net_spec '[1,0,0,1 Ct5,5,16 Mp3,3 Lfys64 Lfx128 Lrx128 Lfx384 O1c5000]' \
 --model_output ~/tesstutorial/specialoutput/base --learning_rate 20e-4 \
@@ -87,4 +91,48 @@ lstmtraining --model_output ~/tesstutorial/trainspecial/special \
   --train_listfile ~/tesstutorial/trainspecial/chi_sim.training_files.txt \
   --max_iterations 3600
 ```
+合并训练结果
+* finetune训练合并
+```bash
+lstmtraining --stop_training \
+  --continue_from ~/tesstutorial/trainspecial/special_checkpoint \
+  --traineddata ~/tesstutorial/trainspecial/chi_sim/chi_sim.traineddata \
+  --model_output ~/tesstutorial/trainspecial/chi_sim_special.traineddata
+```
+新生成的chi_sim_special.traineddata在~/tesstutorial/trainspecial目录下。
+
+* scratch训练合并
+```bash
+lstmtraining --stop_training \
+--continue_from ~/tesstutorial/trainspecial/special_checkpoint \
+--traineddata ~/tesstutorial/trainspecial/chi_sim/chi_sim.traineddata \
+--model_output ~/tesstutorial/specialoutput/chi_sim_special.traineddata
+```
+继续训练
+如果合并后测试的结果不够理想，可以利用以下命令继续训练
+
+* fine tuning继续训练
+```bash
+lstmtraining --model_output ~/tesstutorial/trainspecial/special \
+  --continue_from ~/tesstutorial/trainspecial/special_checkpoint \
+  --traineddata ~/tesstutorial/trainspecial/chi_sim/chi_sim.traineddata \
+  --old_traineddata tessdata/best/chi_sim.traineddata \
+  --train_listfile ~/tesstutorial/trainspecial/chi_sim.training_files.txt \
+  --max_iterations 10000
+```
+* scratch 继续训练
+```bash
+export SCROLLVIEW_PATH=$PWD/java
+
+lstmtraining --debug_interval 100 \
+--traineddata ~/tesstutorial/trainspecial/chi_sim/chi_sim.traineddata \
+--net_spec '[1,36,0,1 Ct3,3,16 Mp3,3 Lfys48 Lfx96 Lrx96 Lfx256 O1c111]' \
+--model_output ~/tesstutorial/specialoutput/base --learning_rate 20e-4 \
+--train_listfile ~/tesstutorial/trainspecial/chi_sim.training_files.txt \
+--eval_listfile ~/tesstutorial/evalspecial/chi_sim.training_files.txt \
+--continue_from ~/tesstutorial/specialoutput/base_checkpoint \
+--max_iterations 10000 &>~/tesstutorial/specialoutput/basetrain.log
+```
+注意：这里的max_iterations的取值要大于第一次的训练值。例如，本次的max_iterations 10000大于3600。
+
 
