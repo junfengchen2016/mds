@@ -165,7 +165,9 @@ oxygen-2
 [nightly Android build artifacts](https://ci.tensorflow.org/view/Nightly/job/nightly-android/)
 
 |version|cuda|cudnn| 
-| - | - | 
+|-|-|-| 
+|1.12.0|
+|1.11.0|
 |1.10.0|9.0|7.0|
 |1.9.0|9.0|7.0|
 |1.8.0|9.0|7.0|
