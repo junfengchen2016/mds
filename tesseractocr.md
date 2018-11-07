@@ -7,6 +7,7 @@
 * [Tesseract中英文正体斜体混合训练](https://www.jianshu.com/p/b219ea55f130)
 * [Tess4.0手动合并输入数据及模型训练流程](https://www.jianshu.com/p/28aabd574d3a)
 * [特殊字符语言包训练流程（新）](https://www.jianshu.com/p/7a2c40dd6560)
+* [Need a free call to match GetUTF8Text(); #1030](https://github.com/tesseract-ocr/tesseract/issues/1030)
 
 
 ## compile
