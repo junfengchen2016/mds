@@ -4,7 +4,7 @@
 |item|version|note|
 |-|-|-|
 |[davidsandberg/facenet](https://github.com/davidsandberg/facenet)||facenet|
-|[gflags/gflags](https://github.com/gflags/gflags)|2.2.1|gflags|
+|[gflags/gflags](https://github.com/gflags/gflags)|2.2.2|gflags|
 |[google/flatbuffers](https://github.com/google/flatbuffers)|1.10.0|
 |[google/glog](https://github.com/google/glog)|0.3.5|
 |[google/googletest](https://github.com/google/googletest)|1.8.1|
@@ -36,6 +36,7 @@
 |[Microsoft/CNTK](https://github.com/Microsoft/CNTK)|2.6||
 |[Microsoft/dotnet](https://github.com/Microsoft/dotnet)|||
 |[Microsoft/Range-V3-VS2015](https://github.com/Microsoft/Range-V3-VS2015)|vcpkg5|
+|[Microsoft/VoTT](https://github.com/Microsoft/VoTT)|1.5.0|
 |[Microsoft/vscode](https://github.com/Microsoft/vscode)|1.28.2||
 |[Microsoft/Windows-Machine-Learning](https://github.com/Microsoft/Windows-Machine-Learning)||
 |[PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)|6.1.0|
