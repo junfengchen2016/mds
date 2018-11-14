@@ -51,7 +51,8 @@
 |[cppan/tesseract_example](https://github.com/cppan/tesseract_example)||
 |[dmlc/gluon-nlp](https://github.com/dmlc/gluon-nlp)|0.2.0|
 |[eigenteam/eigen-git-mirror](https://github.com/eigenteam/eigen-git-mirror)|3.3.4|
-|[ericniebler/range-v3](https://github.com/ericniebler/range-v3)|0.3.6|
+|[eragonruan/text-detection-ctpn](https://github.com/eragonruan/text-detection-ctpn)|0.99|
+|[ericniebler/range-v3](https://github.com/ericniebler/range-v3)|0.4.0|
 |[fo40225/tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel)|1.11.0|
 |[glassechidna/zxing-cpp](https://github.com/glassechidna/zxing-cpp)||
 |[Honlan/DeepInterests](https://github.com/Honlan/DeepInterests)||深度有趣 |
@@ -74,6 +75,7 @@
 |[migueldeicaza/TensorFlowSharp](https://github.com/migueldeicaza/TensorFlowSharp)|1.7.0|
 |[minimaxir/textgenrnn](https://github.com/minimaxir/textgenrnn)|1.3.1|
 |[mono/SkiaSharp](https://github.com/mono/SkiaSharp)|1.60.1|
+|[https://github.com/mzucker/page_dewarp](https://github.com/mzucker/page_dewarp)||
 |[open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp)|1.8.4|jsoncpp|
 |[opencv/cvat](https://github.com/opencv/cvat)|0.2.0|
 |[opencv/open_model_zoo](https://github.com/opencv/open_model_zoo)|
