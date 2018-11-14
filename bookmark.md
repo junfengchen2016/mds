@@ -23,4 +23,6 @@
 * [Oxyry Python Obfuscator](http://pyob.oxyry.com/)
 ## 音乐
 * [人人钢琴网](http://www.everyonepiano.cn/)
+## 读书
+* [金庸网](http://www.jinyongwang.com/)
 
