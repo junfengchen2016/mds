@@ -1,6 +1,7 @@
 # Computer Vision Annotation Tool (CVAT)
 
 * [opencv/cvat](https://github.com/opencv/cvat)
+* [User's guide](https://github.com/opencv/cvat/blob/develop/cvat/apps/documentation/user_guide.md)
 
 ## INSTALLATION
 Install Docker CE or Docker EE from official site
