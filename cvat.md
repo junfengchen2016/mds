@@ -2,6 +2,7 @@
 
 * [opencv/cvat](https://github.com/opencv/cvat)
 * [User's guide](https://github.com/opencv/cvat/blob/develop/cvat/apps/documentation/user_guide.md)
+* [opencv官方标注工具cvat的安装和使用](https://blog.csdn.net/minstyrain/article/details/82454991)
 
 ## INSTALLATION
 Install Docker CE or Docker EE from official site
