@@ -386,7 +386,7 @@ tbb2017_20160916oss
 [http://www.ubuntu.com](http://www.ubuntu.com)<br>
 [https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/)<br>
 
-18.04
+18.04.1
 
 16.04.5
 
