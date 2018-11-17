@@ -37,7 +37,7 @@
 |[Microsoft/dotnet](https://github.com/Microsoft/dotnet)|||
 |[Microsoft/Range-V3-VS2015](https://github.com/Microsoft/Range-V3-VS2015)|vcpkg5|
 |[Microsoft/VoTT](https://github.com/Microsoft/VoTT)|1.5.0|
-|[Microsoft/vscode](https://github.com/Microsoft/vscode)|1.28.2||
+|[Microsoft/vscode](https://github.com/Microsoft/vscode)|1.29.1||
 |[Microsoft/Windows-Machine-Learning](https://github.com/Microsoft/Windows-Machine-Learning)||
 |[PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)|6.1.0|
 
@@ -50,7 +50,7 @@
 |[CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)|1.4.0|
 |[cppan/tesseract_example](https://github.com/cppan/tesseract_example)||
 |[dmlc/gluon-nlp](https://github.com/dmlc/gluon-nlp)|0.2.0|
-|[eigenteam/eigen-git-mirror](https://github.com/eigenteam/eigen-git-mirror)|3.3.4|
+|[eigenteam/eigen-git-mirror](https://github.com/eigenteam/eigen-git-mirror)|3.3.5|
 |[eragonruan/text-detection-ctpn](https://github.com/eragonruan/text-detection-ctpn)|0.99|
 |[ericniebler/range-v3](https://github.com/ericniebler/range-v3)|0.4.0|
 |[fo40225/tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel)|1.12.0|
