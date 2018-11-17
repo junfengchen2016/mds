@@ -264,7 +264,8 @@ vs2008-1.68 2011-3-14
 
 ## MySQL
 [http://www.mysql.com/](http://www.mysql.com/)
-5.7.21
+
+8.0.13
 
 ## nodejs
 [https://nodejs.org/en/](https://nodejs.org/en/)<br>
@@ -285,7 +286,7 @@ vs2008-1.68 2011-3-14
 ## Octave
 [https://ftp.gnu.org/gnu/octave/windows/](https://ftp.gnu.org/gnu/octave/windows/)
 
-4.0.3
+4.4.1
 
 ## OpenCV
  [http://opencv.org/](http://opencv.org/)<br>
