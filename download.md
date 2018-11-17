@@ -236,6 +236,7 @@ vs2008-1.68 2011-3-14
 
 |date| version | jdk | cpython | git | ndk | Anaconda |
 |-|-|-|-|-|-|-|
+| 2018-11-15 | 15.9.1 |
 | 2018-11-13 | 15.9 |
 | 2018-11-2 | 15.8.9 |
 | 2018-10-24 | 15.8.8 | 8u192 |
@@ -257,7 +258,7 @@ vs2008-1.68 2011-3-14
 ### vscode
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-1.28
+1.29
 
 [https://marketplace.visualstudio.com/VSCode](https://marketplace.visualstudio.com/VSCode)
 
