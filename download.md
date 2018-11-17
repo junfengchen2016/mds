@@ -317,7 +317,7 @@ vs2008-1.68 2011-3-14
 
 [http://libjpeg-turbo.virtualgl.org](http://libjpeg-turbo.virtualgl.org) 
 
-libjpeg-turbo 1.4.2
+libjpeg-turbo 2.0.1
 
 [https://osdn.jp/projects/sfnet_opencvlibrary/releases/](https://osdn.jp/projects/sfnet_opencvlibrary/releases/)
 
