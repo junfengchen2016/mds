@@ -131,7 +131,7 @@ oxygen-2
 
 | Eletron | 时间 | Node | Chromium | V8 |
 | - | - | - | - | - |
-| 3.0.9 | 2018-11 | 10.0.2 | 66.0.3359.181 |
+| 3.0.9 | 2018-11 | 10.2.0 | 66.0.3359.181 |
 | 2.0.9 | 2018-9 |
 | 2.0.2 | 2018-5 | 8.9.3 | 61.0.3163.100 |  |
 | 1.8.4 | 2018-3 | 8.2.1 | 59.0.3071.115 |  |
@@ -265,7 +265,8 @@ vs2008-1.68 2011-3-14
 
 ## MySQL
 [http://www.mysql.com/](http://www.mysql.com/)
-5.7.21
+
+8.0.13
 
 ## nodejs
 [https://nodejs.org/en/](https://nodejs.org/en/)<br>
@@ -286,7 +287,7 @@ vs2008-1.68 2011-3-14
 ## Octave
 [https://ftp.gnu.org/gnu/octave/windows/](https://ftp.gnu.org/gnu/octave/windows/)
 
-4.0.3
+4.4.1
 
 ## OpenCV
  [http://opencv.org/](http://opencv.org/)<br>
@@ -318,7 +319,7 @@ vs2008-1.68 2011-3-14
 
 [http://libjpeg-turbo.virtualgl.org](http://libjpeg-turbo.virtualgl.org) 
 
-libjpeg-turbo 1.4.2
+libjpeg-turbo 2.0.1
 
 [https://osdn.jp/projects/sfnet_opencvlibrary/releases/](https://osdn.jp/projects/sfnet_opencvlibrary/releases/)
 
@@ -392,7 +393,7 @@ tbb2017_20160916oss
 [http://www.ubuntu.com](http://www.ubuntu.com)<br>
 [https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/](https://mirrors.tuna.tsinghua.edu.cn/ubuntu-releases/)<br>
 
-18.04
+18.04.1
 
 16.04.5
 

@@ -14,7 +14,7 @@
 |[GoogleCloudPlatform/tensorflow-without-a-phd](https://github.com/GoogleCloudPlatform/tensorflow-without-a-phd)||
 |[googlecodelabs/tensorflow-for-poets-2](https://github.com/googlecodelabs/tensorflow-for-poets-2)||
 |[googlecodelabs/tensorflow-style-transfer-android](https://github.com/googlecodelabs/tensorflow-style-transfer-android)||
-|[grpc/grpc](https://github.com/grpc/grpc)|1.16.0|grpc|
+|[grpc/grpc](https://github.com/grpc/grpc)|1.16.1|grpc|
 |[tensorflow/docs](https://github.com/tensorflow/docs)|
 |[tensorflow/models](https://github.com/tensorflow/models)|1.11|models|
 |[tensorflow/serving](https://github.com/tensorflow/serving)|1.12.0| serving |
@@ -37,7 +37,7 @@
 |[Microsoft/dotnet](https://github.com/Microsoft/dotnet)|||
 |[Microsoft/Range-V3-VS2015](https://github.com/Microsoft/Range-V3-VS2015)|vcpkg5|
 |[Microsoft/VoTT](https://github.com/Microsoft/VoTT)|1.5.0|
-|[Microsoft/vscode](https://github.com/Microsoft/vscode)|1.28.2||
+|[Microsoft/vscode](https://github.com/Microsoft/vscode)|1.29.1||
 |[Microsoft/Windows-Machine-Learning](https://github.com/Microsoft/Windows-Machine-Learning)||
 |[PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)|6.1.0|
 
@@ -50,10 +50,10 @@
 |[CMU-Perceptual-Computing-Lab/openpose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)|1.4.0|
 |[cppan/tesseract_example](https://github.com/cppan/tesseract_example)||
 |[dmlc/gluon-nlp](https://github.com/dmlc/gluon-nlp)|0.2.0|
-|[eigenteam/eigen-git-mirror](https://github.com/eigenteam/eigen-git-mirror)|3.3.4|
+|[eigenteam/eigen-git-mirror](https://github.com/eigenteam/eigen-git-mirror)|3.3.5|
 |[eragonruan/text-detection-ctpn](https://github.com/eragonruan/text-detection-ctpn)|0.99|
 |[ericniebler/range-v3](https://github.com/ericniebler/range-v3)|0.4.0|
-|[fo40225/tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel)|1.11.0|
+|[fo40225/tensorflow-windows-wheel](https://github.com/fo40225/tensorflow-windows-wheel)|1.12.0|
 |[glassechidna/zxing-cpp](https://github.com/glassechidna/zxing-cpp)||
 |[Honlan/DeepInterests](https://github.com/Honlan/DeepInterests)||深度有趣 |
 |[lllyasviel/style2paints](https://github.com/lllyasviel/style2paints)|
@@ -80,10 +80,10 @@
 |[opencv/cvat](https://github.com/opencv/cvat)|0.2.0|
 |[opencv/open_model_zoo](https://github.com/opencv/open_model_zoo)|
 |[opencv/opencv](https://github.com/opencv/opencv)|3.4.3|opencv|
-|[opencv/opencv_contrib](https://github.com/opencv/opencv_contrib)|3.4.3|opencv_contrib|
+|[opencv/opencv_contrib](https://github.com/opencv/opencv_contrib)|3.4.4|opencv_contrib|
 |[philferriere/cocoapi](https://github.com/philferriere/cocoapi)||
 |[q-gao/progressive-growing-gan](https://github.com/q-gao/progressive-growing-gan)||
-|[shimat/opencvsharp](https://github.com/shimat/opencvsharp)|3.4.1|opencvsharp|
+|[shimat/opencvsharp](https://github.com/shimat/opencvsharp)|3.4.4|opencvsharp|
 |[Shirhe-Lyh/mask_rcnn_test](https://github.com/Shirhe-Lyh/mask_rcnn_test)||TensorFlow 训练 Mask R-CNN 模型|
 |[TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace)|2.0.6|
 |[TerenceCYJ/Video_Object_Detection](https://github.com/TerenceCYJ/Video_Object_Detection)||
