@@ -89,6 +89,7 @@
 |[TerenceCYJ/Video_Object_Detection](https://github.com/TerenceCYJ/Video_Object_Detection)||
 |[taki0112_StarGAN-Tensorflow](https://github.com/taki0112/StarGAN-Tensorflow)|||
 |[tsdconseil/opencv-demonstrator](https://github.com/tsdconseil/opencv-demonstrator)|1.3.0|
+|[wkentaro/labelme](https://github.com/wkentaro/labelme)|3.5.0|
 |[XamlAnimatedGif/WpfAnimatedGif](https://github.com/XamlAnimatedGif/WpfAnimatedGif)||
 |[XamlAnimatedGif/XamlAnimatedGif](https://github.com/XamlAnimatedGif/XamlAnimatedGif)|1.1.10|
 |[xitu/tensorflow-docs](https://github.com/xitu/tensorflow-docs)||

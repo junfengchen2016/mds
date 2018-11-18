@@ -37,3 +37,38 @@ Run docker containers
 docker-compose up -d
 ```
 Go to localhost:8080.
+
+## installation
+首先克隆仓库
+```bash
+git clone https://github.com/opencv/cvat
+```
+安装必须的环境
+```bash
+sudo apt-get install -y curl redis-server python3-dev python3-pip python3-venv libldap2-dev libsasl2-dev
+```
+新建两个文件夹logs和keys
+```bash
+mkdir logs keys
+```
+安装必须的依赖库
+```bash
+sudo pip3 install -r cvat/requirements/development.txt
+```
+准备
+```bash
+python3 manage.py migrate
+python3 manage.py collectstatic
+```
+新建超级管理员账户，根据提示输入将要新建的管理员账户名、邮箱和密码，注意密码至少8位且不能太简单
+```bash
+python3 manage.py createsuperuser
+```
+开启服务器
+```bash
+python3 manage.py runserver --noreload --nothreading --insecure 127.0.0.1:7000
+```
+使用谷歌浏览器打开网址(火狐等其他浏览器暂不支持):
+```bash
+127.0.0.1:7000
+```

@@ -131,6 +131,7 @@ oxygen-2
 
 | Eletron | 时间 | Node | Chromium | V8 |
 | - | - | - | - | - |
+| 3.0.9 | 2018-11 | 10.0.2 | 66.0.3359.181 |
 | 2.0.9 | 2018-9 |
 | 2.0.2 | 2018-5 | 8.9.3 | 61.0.3163.100 |  |
 | 1.8.4 | 2018-3 | 8.2.1 | 59.0.3071.115 |  |
@@ -150,7 +151,7 @@ oxygen-2
 [https://www.freetype.org/](https://www.freetype.org/)<br>
 [http://download.savannah.gnu.org/releases/freetype/](http://download.savannah.gnu.org/releases/freetype/)<br>
 
-2.8.1 2017-9-16
+2.9.1 2018-8-25
 
 ## git
 [https://github.com/git-for-windows/git](https://github.com/git-for-windows/git)
@@ -226,7 +227,7 @@ oxygen-2
 ## Leptonica
 [http://www.leptonica.com/](http://www.leptonica.com/) 
 
-1.74.4 2017-6-11
+1.76.0 2018-5-1
 vs2008-1.68 2011-3-14
 
 ## microsoft
@@ -236,7 +237,8 @@ vs2008-1.68 2011-3-14
 
 |date| version | jdk | cpython | git | ndk | Anaconda |
 |-|-|-|-|-|-|-|
-| 2018-11-13 | 15.9 |
+| 2018-11-15 | 15.9.1 |
+| 2018-11-13 | 15.9 | 8u181 |
 | 2018-11-2 | 15.8.9 |
 | 2018-10-24 | 15.8.8 | 8u192 |
 | 2018-10-10 | 15.8.7 | | | 2.17.1.2 |
@@ -257,7 +259,7 @@ vs2008-1.68 2011-3-14
 ### vscode
 [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-1.28
+1.29
 
 [https://marketplace.visualstudio.com/VSCode](https://marketplace.visualstudio.com/VSCode)
 
@@ -330,6 +332,8 @@ OpenCV demonstrator (GUI)
 
 | 版本| 时间 | note |
 | - | - | - |
+| 1.1.1 | 2018-9-11 | LTS |
+| 1.0.2p | 2018-8-14 |
 | 1.1.0h | 2018-3-27 | |
 | 1.0.2o | 2018-3-27 | LTS |
 | 1.1.0g | 2017-11-2 | |
@@ -340,9 +344,11 @@ OpenCV demonstrator (GUI)
 [http://www.pcre.org/](http://www.pcre.org/)
 
 | 项目 | 版本| 时间 |
-| ------ | ------ | ------ |
-| pcre | 8.41 | 2017-7 |
+| - | - | - |
+| pcre2 | 10.32 | 2018-9 |
+| pcre | 8.42 | 2018-3 |
 | pcre2 | 10.31 | 2018-2 |
+| pcre | 8.41 | 2017-7 |
 
 ## PyCharm
 [http://www.jetbrains.com/pycharm/download](http://www.jetbrains.com/pycharm/download)
@@ -375,11 +381,12 @@ tbb2017_20160916oss
 [https://github.com/leethomason/tinyxml2](https://github.com/leethomason/tinyxml2)<br>
 
 | 项目 | 版本| 时间 |
-| ------ | ------ | ------ |
-| tinyxml | 2.6.2 | 2011-5-15 |
+| - | - | - |
+| tinyxml2 | 7.0.0 | 2018-11 |
 | tinyxml2 | 6.2.0 | 2018-4 |
 | tinyxml2 | 6.0.0 | 2017-12 |
 | tinyxml2 | 5.0.1 | 2017-6-27 |
+| tinyxml | 2.6.2 | 2011-5-15 |
 
 ## Ubuntu
 [http://www.ubuntu.com](http://www.ubuntu.com)<br>
