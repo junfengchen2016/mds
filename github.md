@@ -81,6 +81,7 @@
 |[opencv/open_model_zoo](https://github.com/opencv/open_model_zoo)|
 |[opencv/opencv](https://github.com/opencv/opencv)|4.0.0|opencv|
 |[opencv/opencv_contrib](https://github.com/opencv/opencv_contrib)|4.0.0|opencv_contrib|
+|[opencv/opencv_extra](https://github.com/opencv/opencv_extra)|4.0.0|
 |[philferriere/cocoapi](https://github.com/philferriere/cocoapi)||
 |[q-gao/progressive-growing-gan](https://github.com/q-gao/progressive-growing-gan)||
 |[shimat/opencvsharp](https://github.com/shimat/opencvsharp)|3.4.4|opencvsharp|
