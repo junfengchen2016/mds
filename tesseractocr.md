@@ -94,7 +94,7 @@ Warning: properties incomplete for index 106 = ，
 Writing unicharset to file e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset
 
 === Phase E: Generating lstmf files ===
-Using TESSDATA_PREFIX=./tessdata
+set TESSDATA_PREFIX=./tessdata
 tesseract e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.tif e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0 --psm 6 lstm.train ../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3/chi_sim/chi_sim.config
 Tesseract Open Source OCR Engine v4.0.0 with Leptonica
 Page 1
