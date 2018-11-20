@@ -65,6 +65,67 @@ tesstrain.sh --fonts_dir /usr/share/fonts --lang chi_sim --linedata_only \
 --tessdata_dir ./tessdata \
 --fontlist "SIMSUN" --output_dir ~/tesstutorial/evalspecial
 ```
+windows
+```bash
+tesstrain.sh --fonts_dir c:/windows/fonts --lang chi_sim --linedata_only --noextract_font_properties --langdata_dir ../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3 --tessdata_dir ./tessdata --fontlist "SIMSUN" --output_dir e:/tesstutorial/evalspecial
+
+=== Starting training for language 'chi_sim'
+text2image --fonts_dir=c:/windows/fonts --font=SIMSUN --outputbase=e:/tmp/tmp.8McSOPsEv6/sample_text.txt --text=e:/tmp/tmp.8McSOPsEv6/sample_text.txt --fontconfig_tmpdir=e:/tmp/tmp.8McSOPsEv6
+Rendered page 0 to file /tmp/tmp.8McSOPsEv6/sample_text.txt.tif
+
+=== Phase I: Generating training images ===
+Rendering using SIMSUN
+text2image --fontconfig_tmpdir=e:/tmp/tmp.8McSOPsEv6 --fonts_dir=c:/windows/fonts --strip_unrenderable_words --leading=32 --char_spacing=0.0 --exposure=0 --outputbase=e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0 --max_pages=0 --font=SIMSUN --text=../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3/chi_sim/chi_sim.training_text
+Rendered page 0 to file e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.tif
+...
+Rendered page 39 to file e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.tif
+
+=== Phase UP: Generating unicharset and unichar properties files ===
+unicharset_extractor --output_unicharset e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset --norm_mode 1 e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.box e:/tmp/tmp.8McSOPsEv6/sample_text.txt.box
+Extracting unicharset from box file e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.box
+Extracting unicharset from box file e:/tmp/tmp.8McSOPsEv6/sample_text.txt.box
+Wrote unicharset file e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset
+
+set_unicharset_properties -U e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset -O e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset -X e:/tmp/tmp.8McSOPsEv6/chi_sim.xheights --script_dir=../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3
+Loaded unicharset of size 5074 from file e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset
+Setting unichar properties
+Setting script properties
+Warning: properties incomplete for index 106 = ，
+Writing unicharset to file e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset
+
+=== Phase E: Generating lstmf files ===
+Using TESSDATA_PREFIX=./tessdata
+tesseract e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.tif e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0 --psm 6 lstm.train ../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3/chi_sim/chi_sim.config
+Tesseract Open Source OCR Engine v4.0.0 with Leptonica
+Page 1
+Page 2
+Loaded 55/55 pages (1-55) of document /tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.lstmf
+...
+Page 40
+Loaded 2145/2145 pages (1-2145) of document /tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.lstmf
+
+=== Constructing LSTM training data ===
+Creating new directory e:/tesstutorial/evalspecial
+combine_lang_model --input_unicharset e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset --script_dir ../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3 --words ../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3/chi_sim/chi_sim.wordlist --numbers ../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3/chi_sim/chi_sim.numbers --puncs ../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3/chi_sim/chi_sim.punc --output_dir e:/tesstutorial/evalspecial --lang chi_sim
+Loaded unicharset of size 5074 from file e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset
+Setting unichar properties
+Setting script properties
+Warning: properties incomplete for index 106 = ，
+Config file is optional, continuing...
+Null char=2
+Reducing Trie to SquishedDawg
+Reducing Trie to SquishedDawg
+Reducing Trie to SquishedDawg
+
+=== Moving lstmf files for training data ===
+Moving e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.lstmf to e:/tesstutorial/evalspecial
+
+Created starter traineddata for language 'chi_sim'
+
+
+Run lstmtraining to do the LSTM training for language 'chi_sim'
+
+```
 
 * scratch训练
 ```bash
