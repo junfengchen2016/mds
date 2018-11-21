@@ -9,9 +9,8 @@
 * [特殊字符语言包训练流程（新）](https://www.jianshu.com/p/7a2c40dd6560)
 * [Need a free call to match GetUTF8Text(); #1030](https://github.com/tesseract-ocr/tesseract/issues/1030)
 
-
-## compile
-* linux
+## Building the Training Tools
+### ubuntu
 ```bash
 sudo apt-get install libicu-dev
 sudo apt-get install libpango1.0-dev
@@ -28,21 +27,40 @@ make training
 sudo make training-install
 sudo ldconfig
 ```
-* windows
+
+### windows
 ```
 1 下载最新的CPPAN，将cppan.exe所在的文件路径作为环境变量的值。
 2 下载最新的cmake，解压文件压缩包，将解压后目录下的bin文件夹的目录地址加载至系统环境变量PATH中。
 3 下载Tesseract最新版的源码：git clone https://github.com/tesseract-ocr/tesseract tesseract
 4 执行以下命令，编译：
 cd tesseract
-mkdir win64 && cd win64
+
+mkdir x86 && cd x86
+cppan ..
+cmake .. -G "Visual Studio 14 2015"
+cmake .. -G "Visual Studio 15 2017"
+
+mkdir x64 && cd x64
 cppan ..
 cmake .. -G "Visual Studio 14 2015 Win64"
 cmake .. -G "Visual Studio 15 2017 Win64"
 5 在win64目录下找到tesseract.sln文件，用VS2015打开该文件，点击【生成】按钮，根据相应错误进行改错。(带签名的utf-8编码)
 ```
 
-## train
+## Creating Training Data
+### windows
+```bash
+set Path=%Path%;E:\tools\tesseract-ocr\tesseract-4.0.0\build\x86\v140\bin
+bash src/training/tesstrain.sh --fonts_dir c:/windows/fonts --lang chi_sim --linedata_only --noextract_font_properties --langdata_dir ../langdata-master_20180410_106c9b3 --tessdata_dir ./tessdata --fontlist "SIMSUN" --output_dir ./tesstutorial/trainspecial
+```
+* after change tif and box 
+```bash
+set MY_TMP_DIR=/tmp/tmp.Uo5PkVYhss
+set Path=%Path%;E:\tools\tesseract-ocr\tesseract-4.0.0\build\x86\v140\bin
+bash src/training/tesstrain1.sh --fonts_dir c:/windows/fonts --lang chi_sim --linedata_only --noextract_font_properties --langdata_dir ../langdata-master_20180410_106c9b3 --tessdata_dir ./tessdata --fontlist "SIMSUN" --output_dir ./tesstutorial/trainspecial
+```
+### ubuntu
 ```bash
 sudo cp simsun.ttc /usr/share/fonts
 ```
@@ -65,68 +83,8 @@ tesstrain.sh --fonts_dir /usr/share/fonts --lang chi_sim --linedata_only \
 --tessdata_dir ./tessdata \
 --fontlist "SIMSUN" --output_dir ~/tesstutorial/evalspecial
 ```
-windows
-```bash
-tesstrain.sh --fonts_dir c:/windows/fonts --lang chi_sim --linedata_only --noextract_font_properties --langdata_dir ../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3 --tessdata_dir ./tessdata --fontlist "SIMSUN" --output_dir e:/tesstutorial/evalspecial
 
-=== Starting training for language 'chi_sim'
-text2image --fonts_dir=c:/windows/fonts --font=SIMSUN --outputbase=e:/tmp/tmp.8McSOPsEv6/sample_text.txt --text=e:/tmp/tmp.8McSOPsEv6/sample_text.txt --fontconfig_tmpdir=e:/tmp/tmp.8McSOPsEv6
-Rendered page 0 to file /tmp/tmp.8McSOPsEv6/sample_text.txt.tif
-
-=== Phase I: Generating training images ===
-Rendering using SIMSUN
-text2image --fontconfig_tmpdir=e:/tmp/tmp.8McSOPsEv6 --fonts_dir=c:/windows/fonts --strip_unrenderable_words --leading=32 --char_spacing=0.0 --exposure=0 --outputbase=e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0 --max_pages=0 --font=SIMSUN --text=../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3/chi_sim/chi_sim.training_text
-Rendered page 0 to file e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.tif
-...
-Rendered page 39 to file e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.tif
-
-=== Phase UP: Generating unicharset and unichar properties files ===
-unicharset_extractor --output_unicharset e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset --norm_mode 1 e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.box e:/tmp/tmp.8McSOPsEv6/sample_text.txt.box
-Extracting unicharset from box file e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.box
-Extracting unicharset from box file e:/tmp/tmp.8McSOPsEv6/sample_text.txt.box
-Wrote unicharset file e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset
-
-set_unicharset_properties -U e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset -O e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset -X e:/tmp/tmp.8McSOPsEv6/chi_sim.xheights --script_dir=../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3
-Loaded unicharset of size 5074 from file e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset
-Setting unichar properties
-Setting script properties
-Warning: properties incomplete for index 106 = ，
-Writing unicharset to file e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset
-
-=== Phase E: Generating lstmf files ===
-set TESSDATA_PREFIX=./tessdata
-tesseract e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.tif e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0 --psm 6 lstm.train ../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3/chi_sim/chi_sim.config
-Tesseract Open Source OCR Engine v4.0.0 with Leptonica
-Page 1
-Page 2
-Loaded 55/55 pages (1-55) of document /tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.lstmf
-...
-Page 40
-Loaded 2145/2145 pages (1-2145) of document /tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.lstmf
-
-=== Constructing LSTM training data ===
-Creating new directory e:/tesstutorial/evalspecial
-combine_lang_model --input_unicharset e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset --script_dir ../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3 --words ../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3/chi_sim/chi_sim.wordlist --numbers ../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3/chi_sim/chi_sim.numbers --puncs ../../tesseract-ocr_langdata/langdata-master_20180410_106c9b3/chi_sim/chi_sim.punc --output_dir e:/tesstutorial/evalspecial --lang chi_sim
-Loaded unicharset of size 5074 from file e:/tmp/tmp.8McSOPsEv6/chi_sim.unicharset
-Setting unichar properties
-Setting script properties
-Warning: properties incomplete for index 106 = ，
-Config file is optional, continuing...
-Null char=2
-Reducing Trie to SquishedDawg
-Reducing Trie to SquishedDawg
-Reducing Trie to SquishedDawg
-
-=== Moving lstmf files for training data ===
-Moving e:/tmp/tmp.8McSOPsEv6/chi_sim.SIMSUN.exp0.lstmf to e:/tesstutorial/evalspecial
-
-Created starter traineddata for language 'chi_sim'
-
-
-Run lstmtraining to do the LSTM training for language 'chi_sim'
-
-```
-
+## Tutorial Guide to lstmtraining
 * scratch训练
 ```bash
 export SCROLLVIEW_PATH=$PWD/java
