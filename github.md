@@ -76,7 +76,7 @@
 |[migueldeicaza/TensorFlowSharp](https://github.com/migueldeicaza/TensorFlowSharp)|1.7.0|
 |[minimaxir/textgenrnn](https://github.com/minimaxir/textgenrnn)|1.3.1|
 |[mono/SkiaSharp](https://github.com/mono/SkiaSharp)|1.60.1|
-|[https://github.com/mzucker/page_dewarp](https://github.com/mzucker/page_dewarp)||
+|[mzucker/page_dewarp](https://github.com/mzucker/page_dewarp)||
 |[open-source-parsers/jsoncpp](https://github.com/open-source-parsers/jsoncpp)|1.8.4|jsoncpp|
 |[opencv/cvat](https://github.com/opencv/cvat)|0.2.0|
 |[opencv/open_model_zoo](https://github.com/opencv/open_model_zoo)|
