@@ -26,4 +26,6 @@
 * [人人钢琴网](http://www.everyonepiano.cn/)
 ## 读书
 * [金庸网](http://www.jinyongwang.com/)
+## 影视
+* [电影天堂](https://www.dytt8.net/)
 
