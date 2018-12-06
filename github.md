@@ -85,7 +85,7 @@
 |[opencv/opencv_extra](https://github.com/opencv/opencv_extra)|4.0.0|
 |[philferriere/cocoapi](https://github.com/philferriere/cocoapi)||
 |[q-gao/progressive-growing-gan](https://github.com/q-gao/progressive-growing-gan)||
-|[shimat/opencvsharp](https://github.com/shimat/opencvsharp)|3.4.4|opencvsharp|
+|[shimat/opencvsharp](https://github.com/shimat/opencvsharp)|4.0.0|opencvsharp|
 |[Shirhe-Lyh/mask_rcnn_test](https://github.com/Shirhe-Lyh/mask_rcnn_test)||TensorFlow 训练 Mask R-CNN 模型|
 |[TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace)|2.0.6|
 |[TerenceCYJ/Video_Object_Detection](https://github.com/TerenceCYJ/Video_Object_Detection)||
