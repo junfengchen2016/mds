@@ -9,6 +9,19 @@
 * [特殊字符语言包训练流程（新）](https://www.jianshu.com/p/7a2c40dd6560)
 * [Need a free call to match GetUTF8Text(); #1030](https://github.com/tesseract-ocr/tesseract/issues/1030)
 
+## Usage
+```cpp
+#include "opencv2/text.hpp"
+
+cv::Ptr<cv::text::OCRTesseract> ocr = cv::text::OCRTesseract::create(".\\tessdata", "eng+chi_sim", 0, cv::text::OEM_LSTM_ONLY, cv::text::PSM_SINGLE_LINE);
+
+string output;
+vector<Rect>   boxes;
+vector<string> words;
+vector<float>  confidences;
+ocr->run(mat_line, output, &boxes, &words, &confidences, cv::text::OCR_LEVEL_TEXTLINE);
+```
+
 ## Building the Training Tools
 ### ubuntu
 ```bash
@@ -49,6 +62,10 @@ cmake .. -G "Visual Studio 15 2017 Win64"
 ```
 
 ## Creating Training Data
+Fine Tuning for ± a few characters(???)
+```
+Modify langdata/eng/eng.training_text to include some samples of ±.
+```
 ### windows
 ```bash
 set Path=%Path%;E:\tools\tesseract-ocr\tesseract-4.0.0\build\x86\v140\bin
@@ -56,35 +73,22 @@ bash src/training/tesstrain.sh --fonts_dir c:/windows/fonts --lang chi_sim --lin
 ```
 * after change tif and box 
 ```bash
-set MY_TMP_DIR=/tmp/tmp.Uo5PkVYhss
+set MY_TMP_DIR=e:/tmp/tmp.Uo5PkVYhss
 set Path=%Path%;E:\tools\tesseract-ocr\tesseract-4.0.0\build\x86\v140\bin
 bash src/training/tesstrain1.sh --fonts_dir c:/windows/fonts --lang chi_sim --linedata_only --noextract_font_properties --langdata_dir ../langdata-master_20180410_106c9b3 --tessdata_dir ./tessdata --fontlist "SIMSUN" --output_dir ./tesstutorial/trainspecial
 ```
-### ubuntu
-```bash
-sudo cp simsun.ttc /usr/share/fonts
-```
-```bash
-git clone https://github.com/tesseract-ocr/tesseract.git
-git clone https://github.com/tesseract-ocr/langdata.git
-git clone https://github.com/tesseract-ocr/tessdata_best.git
-cp ./tessdata_best/eng.traineddata ./tesseract/tessdata
-cp ./tessdata_best/chi_sim.traineddata ./tesseract/tessdata
-cp ./tessdata_best/chi_sim_vert.traineddata ./tesseract/tessdata
-```
-* 生成新的训练数据
-```bash
-tesstrain.sh --fonts_dir /usr/share/fonts --lang chi_sim --linedata_only \
---noextract_font_properties --langdata_dir ../langdata \
---fontlist "SIMSUN" --tessdata_dir ./tessdata --output_dir ~/tesstutorial/trainspecial
-
-tesstrain.sh --fonts_dir /usr/share/fonts --lang chi_sim --linedata_only \
---noextract_font_properties --langdata_dir ../langdata \
---tessdata_dir ./tessdata \
---fontlist "SIMSUN" --output_dir ~/tesstutorial/evalspecial
-```
 
 ## Tutorial Guide to lstmtraining
+
+* windows
+```
+combine_tessdata -e ./tessdata/chi_sim.traineddata ./tesstutorial/trainspecial/chi_sim.lstm
+
+lstmtraining --model_output ./tesstutorial/trainspecial/special --continue_from ./tesstutorial/trainspecial/chi_sim.lstm   --traineddata ./tesstutorial/trainspecial/chi_sim/chi_sim.traineddata --old_traineddata ./tessdata/chi_sim.traineddata --train_listfile ./tesstutorial/trainspecial/chi_sim.training_files.txt  --max_iterations 3600
+
+lstmtraining --stop_training --continue_from ./tesstutorial/trainspecial/special_checkpoint --traineddata ./tesstutorial/trainspecial/chi_sim/chi_sim.traineddata --model_output ./tesstutorial/trainspecial/chi_sim_special.traineddata
+```
+
 * scratch训练
 ```bash
 export SCROLLVIEW_PATH=$PWD/java
@@ -154,5 +158,7 @@ lstmtraining --debug_interval 100 \
 --max_iterations 10000 &>~/tesstutorial/specialoutput/basetrain.log
 ```
 注意：这里的max_iterations的取值要大于第一次的训练值。例如，本次的max_iterations 10000大于3600。
+
+
 
 
