@@ -67,6 +67,7 @@ image_mark_bytes = Mark.image_mark.Parser.ParseFrom(bytes);
 
 ## python
 ```
+import json
 import mark_pb2
 from google.protobuf import json_format
 
@@ -74,8 +75,9 @@ image_mark = mark_pb2.image_mark()
 image_mark.ParseFromString(...)
 
 image_mark_json = mark_pb2.image_mark()
-json = json_format.MessageToJson(image_mark, including_default_value_fields=True)
-json_format.Parse(json, image_mark_json, ignore_unknown_fields=True)
+json_string = json_format.MessageToJson(image_mark, including_default_value_fields=True)
+json_format.Parse(json_string, image_mark_json, ignore_unknown_fields=True)
+json_string1 = json.dumps(json.loads(json_string), ensure_ascii=False)
 
 image_mark_bytes = mark_pb2.image_mark()
 bytes = image_mark.SerializeToString()

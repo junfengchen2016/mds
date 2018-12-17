@@ -14,7 +14,7 @@
 |[GoogleCloudPlatform/tensorflow-without-a-phd](https://github.com/GoogleCloudPlatform/tensorflow-without-a-phd)||
 |[googlecodelabs/tensorflow-for-poets-2](https://github.com/googlecodelabs/tensorflow-for-poets-2)||
 |[googlecodelabs/tensorflow-style-transfer-android](https://github.com/googlecodelabs/tensorflow-style-transfer-android)||
-|[grpc/grpc](https://github.com/grpc/grpc)|1.16.1|grpc|
+|[grpc/grpc](https://github.com/grpc/grpc)|1.17.0|grpc|
 |[tensorflow/docs](https://github.com/tensorflow/docs)|
 |[tensorflow/models](https://github.com/tensorflow/models)|1.11|models|
 |[tensorflow/serving](https://github.com/tensorflow/serving)|1.12.0| serving |
