@@ -1,5 +1,39 @@
 # github
 
+[小技巧-如何加快github下载代码的速度](https://blog.csdn.net/mist99/article/details/80602090)
+
+[加速国内Github访问](https://blog.csdn.net/w958660278/article/details/81161224)
+
+## 加速
+* 获取GitHub官方CDN地址
+```
+https://www.ipaddress.com/
+
+github.com 
+assets-cdn.github.com 
+github.global.ssl.fastly.net
+```
+* 打开hosts映射(Windows)
+```
+C:\Windows\System32\drivers\etc\hosts
+
+192.30.253.112 github.com
+151.101.184.133 assets-cdn.github.com
+151.101.185.194 github.global.ssl.fastly.net
+
+ipconfig /flushdns
+```
+* 打开hosts映射(Linux)
+```
+sudo gedit /etc/hosts
+
+192.30.253.112 github.com
+151.101.72.133 assets-cdn.github.com
+151.101.193.194 github.global.ssl.fastly.net
+
+/etc/init.d/networking restart
+```
+
 ## google
 |item|version|note|
 |-|-|-|
